@@ -1,0 +1,25 @@
+{
+  "name": "Dictionary API Pronunciation Backfill",
+  "version": "pronunciation-backfill-2026-06-16",
+  "createdAt": "2026-06-16T06:46:06.691Z",
+  "sourceId": "dictionaryapi-pronunciation-backfill",
+  "wordCount": 2,
+  "audioCount": 2,
+  "sources": [
+    {
+      "name": "Free Dictionary API",
+      "url": "https://dictionaryapi.dev/",
+      "license": "API data includes per-pronunciation source and license metadata"
+    }
+  ],
+  "licenses": [
+    "BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0",
+    "CC0 http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  ],
+  "skipped": {},
+  "files": {
+    "dictionaryCsv": "dictionary.csv",
+    "audioIndex": "audio-index.json",
+    "audioDirectory": "audio/"
+  }
+}

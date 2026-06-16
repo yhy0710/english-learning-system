@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "英语学习系统",
+    "slug": "english-learning-system",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "com.local.englishlearningsystem",
+      "permissions": ["INTERNET", "ACCESS_NETWORK_STATE", "ACCESS_WIFI_STATE", "CHANGE_WIFI_MULTICAST_STATE"]
+    }
+  }
+}

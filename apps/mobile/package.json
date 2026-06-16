@@ -1,0 +1,22 @@
+{
+  "name": "@els/mobile",
+  "version": "0.1.0",
+  "private": true,
+  "main": "expo/AppEntry",
+  "scripts": {
+    "dev": "expo start",
+    "android": "expo run:android",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@els/shared": "file:../../packages/shared",
+    "expo": "^56.0.12",
+    "expo-sqlite": "^56.0.5",
+    "react": "^19.2.7",
+    "react-native": "^0.86.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "typescript": "^5.8.3"
+  }
+}

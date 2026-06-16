@@ -1,0 +1,34 @@
+{
+  "name": "Basic Dale-Chall Foundation Vocabulary",
+  "version": "basic-dale-chall-foundation-2026-06-16",
+  "createdAt": "2026-06-16T06:42:37.596Z",
+  "sourceId": "basic-dale-chall-dictionaryapi",
+  "wordCount": 300,
+  "audioCount": 300,
+  "sources": [
+    {
+      "name": "words/dale-chall",
+      "url": "https://github.com/words/dale-chall",
+      "license": "MIT"
+    },
+    {
+      "name": "Free Dictionary API",
+      "url": "https://dictionaryapi.dev/",
+      "license": "API data includes per-pronunciation source and license metadata"
+    }
+  ],
+  "licenses": [
+    "BY 3.0 US https://creativecommons.org/licenses/by/3.0/us",
+    "BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0",
+    "BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0"
+  ],
+  "skipped": {
+    "no pronunciation audio": 42,
+    "no dictionary entry": 5
+  },
+  "files": {
+    "dictionaryCsv": "dictionary.csv",
+    "audioIndex": "audio-index.json",
+    "audioDirectory": "audio/"
+  }
+}

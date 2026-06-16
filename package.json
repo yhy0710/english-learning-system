@@ -1,0 +1,25 @@
+{
+  "name": "english-learning-system",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "npm@11.6.2",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:server": "npm --workspace @els/server run dev",
+    "dev:web": "npm --workspace @els/web run dev",
+    "import:basic-vocabulary": "tsx scripts/import-basic-vocabulary.ts",
+    "build:android:debug": "cd apps/mobile/android && JAVA_HOME=/Users/yanghuanyu/Library/Java/JavaVirtualMachines/ms-17.0.18/Contents/Home ANDROID_HOME=\"/Users/yanghuanyu/codex/English Learning System/.android-sdk\" ANDROID_SDK_ROOT=\"/Users/yanghuanyu/codex/English Learning System/.android-sdk\" ./gradlew assembleDebug",
+    "build": "npm run build --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
+  }
+}

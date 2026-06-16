@@ -1,0 +1,34 @@
+[
+  {
+    "word": "persist",
+    "normalized": "persist",
+    "phonetic": "/pɚˈsɪst/",
+    "definitionEn": "To go on stubbornly or resolutely.",
+    "example": "",
+    "partOfSpeech": "verb",
+    "audioFile": "resource-packs/pronunciation-backfill-2026-06-16/audio/persist.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/persist-us.mp3",
+    "audioSha256": "a5e420765a4883a5fc346f86ef28ba15ea63c590d203752918657de3786d7620",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=2651291"
+    }
+  },
+  {
+    "word": "verify",
+    "normalized": "verify",
+    "phonetic": "",
+    "definitionEn": "To substantiate or prove the truth of something",
+    "example": "",
+    "partOfSpeech": "verb",
+    "audioFile": "resource-packs/pronunciation-backfill-2026-06-16/audio/verify.wav",
+    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/LL-Q1860_%28eng%29-Arlo_Barnes-verify.wav",
+    "audioSha256": "a7d54c3f4f87e4dcde1689097d69565a72c7f95d937f73146a6d62e26170298f",
+    "license": {
+      "name": "CC0",
+      "url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Arlo_Barnes-verify.wav"
+    }
+  }
+]
