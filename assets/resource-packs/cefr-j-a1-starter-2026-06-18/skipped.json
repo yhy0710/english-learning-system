@@ -1,0 +1,50 @@
+[
+  {
+    "word": "a.m./a.m./am/am",
+    "reason": "unsupported word shape"
+  },
+  {
+    "word": "airplane/aeroplane",
+    "reason": "unsupported word shape"
+  },
+  {
+    "word": "all right",
+    "reason": "unsupported word shape"
+  },
+  {
+    "word": "april",
+    "reason": "no dictionary entry"
+  },
+  {
+    "word": "are",
+    "reason": "no pronunciation audio"
+  },
+  {
+    "word": "be",
+    "reason": "no dictionary entry"
+  },
+  {
+    "word": "board",
+    "reason": "no pronunciation audio"
+  },
+  {
+    "word": "butter",
+    "reason": "no pronunciation audio"
+  },
+  {
+    "word": "cafe/café",
+    "reason": "unsupported word shape"
+  },
+  {
+    "word": "cd",
+    "reason": "no dictionary entry"
+  },
+  {
+    "word": "cd player",
+    "reason": "unsupported word shape"
+  },
+  {
+    "word": "color/colour",
+    "reason": "unsupported word shape"
+  }
+]

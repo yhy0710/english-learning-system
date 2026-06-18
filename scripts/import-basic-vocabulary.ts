@@ -13,6 +13,7 @@ const DEFAULT_PACK_NAME = "Basic Dale-Chall Foundation Vocabulary";
 const BACKFILL_SOURCE_ID = "dictionaryapi-pronunciation-backfill";
 const BACKFILL_PACK_NAME = "Dictionary API Pronunciation Backfill";
 const DEFAULT_LIMIT = 300;
+const FETCH_TIMEOUT_MS = 15_000;
 const USER_AGENT = "EnglishLearningSystem/0.1 basic-vocabulary-importer";
 
 interface Options {
@@ -24,6 +25,17 @@ interface Options {
   packName: string;
   sourceId: string;
   words: string[];
+  wordListUrl: string;
+  wordListFile: string;
+  wordColumn: string;
+  filterColumn: string;
+  filterValues: string[];
+  sourceName: string;
+  sourceUrl: string;
+  sourceLicense: string;
+  baseTags: string[];
+  preserveExistingSource: boolean;
+  wordListOnly: boolean;
 }
 
 interface DictionaryEntry {
@@ -57,13 +69,24 @@ interface ImportedItem {
   word: string;
   normalized: string;
   phonetic: string;
+  definitionZh: string;
   definitionEn: string;
   example: string;
   partOfSpeech: string;
+  tags: string[];
   audioFile: string;
   audioUrl: string;
   audioSha256: string;
   license: AudioLicense;
+}
+
+interface CandidateItem {
+  word: string;
+  tags: string[];
+  phonetic?: string;
+  definitionZh?: string;
+  definitionEn?: string;
+  example?: string;
 }
 
 interface AudioLicense {
@@ -93,12 +116,16 @@ mkdirSync(audioDir, { recursive: true });
 
 if (options.words.length > 0) {
   console.log(`Using provided word list with ${options.words.length} words`);
+} else if (options.wordListUrl) {
+  console.log(`Downloading external word list from ${options.wordListUrl}`);
+} else if (options.wordListFile) {
+  console.log(`Reading external word list from ${options.wordListFile}`);
 } else {
   console.log(`Downloading basic word list from ${DALE_CHALL_URL}`);
 }
-const candidateWords = options.words.length > 0 ? options.words : await fetchDaleChallCandidates(options.offset);
+const candidateItems = await loadCandidateItems(options);
 
-console.log(`Found ${candidateWords.length} candidate words after offset ${options.offset}`);
+console.log(`Found ${candidateItems.length} candidate words after offset ${options.offset}`);
 console.log(`Import target: ${options.limit} words with saved pronunciation audio`);
 console.log(`Assets pack: ${packDir}`);
 
@@ -116,12 +143,53 @@ const report: ImportReport = {
 };
 
 try {
-  for (const word of candidateWords) {
+  for (const candidate of candidateItems) {
     if (report.imported.length >= options.limit) break;
 
+    const word = candidate.word;
     const normalized = normalizeWord(word);
     if (!isImportableWord(normalized)) {
       report.skipped.push({ word, reason: "unsupported word shape" });
+      continue;
+    }
+
+    if (options.wordListOnly) {
+      const existing = database.db
+        .prepare("SELECT id FROM words WHERE normalized = ? AND deleted_at IS NULL")
+        .get(normalized) as { id: string } | undefined;
+
+      const input: WordInput = {
+        word,
+        phonetic: candidate.phonetic ?? "",
+        definitionZh: candidate.definitionZh ?? "",
+        definitionEn: candidate.definitionEn ?? "",
+        example: candidate.example ?? "",
+        tags: mergedTags(existing?.id, "", candidate.tags),
+        source: wordSource(existing?.id)
+      };
+
+      database.createWord(input);
+      if (existing) report.updated += 1;
+      else report.created += 1;
+
+      report.imported.push({
+        word,
+        normalized,
+        phonetic: input.phonetic ?? "",
+        definitionZh: input.definitionZh ?? "",
+        definitionEn: input.definitionEn ?? "",
+        example: input.example ?? "",
+        partOfSpeech: "",
+        tags: itemTags("", candidate.tags),
+        audioFile: "",
+        audioUrl: "",
+        audioSha256: "",
+        license: { name: "", url: "", sourceUrl: "" }
+      });
+
+      if (report.imported.length % 25 === 0) {
+        console.log(`Imported ${report.imported.length}/${options.limit} words`);
+      }
       continue;
     }
 
@@ -160,7 +228,7 @@ try {
       definitionEn: compactText(meaning.definition),
       definitionZh: "",
       example: compactText(meaning.example ?? ""),
-      tags: mergedTags(existing?.id, meaning.partOfSpeech),
+      tags: mergedTags(existing?.id, meaning.partOfSpeech, candidate.tags),
       audioFile: audioResult.relativePath,
       source: wordSource(existing?.id)
     };
@@ -189,9 +257,11 @@ try {
       word,
       normalized,
       phonetic: input.phonetic ?? "",
+      definitionZh: input.definitionZh ?? "",
       definitionEn: input.definitionEn ?? "",
       example: input.example ?? "",
       partOfSpeech: meaning.partOfSpeech,
+      tags: itemTags(meaning.partOfSpeech, candidate.tags),
       audioFile: audioResult.relativePath,
       audioUrl: audioResult.audioUrl,
       audioSha256: audioResult.sha256,
@@ -207,7 +277,7 @@ try {
   registerResourcePack(report);
 
   console.log(
-    `Done. Created ${report.created}, updated ${report.updated}, audio saved ${report.imported.length}, skipped ${report.skipped.length}.`
+    `Done. Created ${report.created}, updated ${report.updated}, audio saved ${audioCount(report.imported)}, skipped ${report.skipped.length}.`
   );
   console.log(`Manifest: ${resolve(packDir, "manifest.json")}`);
   console.log(`CSV: ${resolve(packDir, "dictionary.csv")}`);
@@ -225,7 +295,18 @@ function parseArgs(args: string[]): Options {
     packSlug: `basic-dale-chall-foundation-${today}`,
     packName: DEFAULT_PACK_NAME,
     sourceId: DEFAULT_SOURCE_ID,
-    words: []
+    words: [],
+    wordListUrl: "",
+    wordListFile: "",
+    wordColumn: "",
+    filterColumn: "",
+    filterValues: [],
+    sourceName: "",
+    sourceUrl: "",
+    sourceLicense: "",
+    baseTags: [],
+    preserveExistingSource: false,
+    wordListOnly: false
   };
   let limitProvided = false;
   let packSlugProvided = false;
@@ -266,6 +347,35 @@ function parseArgs(args: string[]): Options {
         .map((word) => normalizeWord(word))
         .filter(Boolean);
       index += 1;
+    } else if (arg === "--word-list-url" && next) {
+      parsed.wordListUrl = next;
+      index += 1;
+    } else if (arg === "--word-list-file" && next) {
+      parsed.wordListFile = resolve(next);
+      index += 1;
+    } else if (arg === "--word-column" && next) {
+      parsed.wordColumn = next;
+      index += 1;
+    } else if (arg === "--filter-column" && next) {
+      parsed.filterColumn = next;
+      index += 1;
+    } else if (arg === "--filter-values" && next) {
+      parsed.filterValues = splitList(next).map((value) => value.toLowerCase());
+      index += 1;
+    } else if (arg === "--source-name" && next) {
+      parsed.sourceName = next;
+      index += 1;
+    } else if (arg === "--source-url" && next) {
+      parsed.sourceUrl = next;
+      index += 1;
+    } else if (arg === "--source-license" && next) {
+      parsed.sourceLicense = next;
+      index += 1;
+    } else if (arg === "--tag" && next) {
+      parsed.baseTags.push(...splitList(next));
+      index += 1;
+    } else if (arg === "--word-list-only") {
+      parsed.wordListOnly = true;
     } else if (arg === "--help" || arg === "-h") {
       printHelpAndExit();
     } else {
@@ -273,11 +383,29 @@ function parseArgs(args: string[]): Options {
     }
   }
 
+  const hasExternalWordList = Boolean(parsed.wordListUrl || parsed.wordListFile);
+  if (parsed.words.length > 0 && hasExternalWordList) {
+    throw new Error("--words cannot be combined with --word-list-url or --word-list-file");
+  }
+  if (parsed.wordListUrl && parsed.wordListFile) {
+    throw new Error("--word-list-url and --word-list-file are mutually exclusive");
+  }
+  if (parsed.filterValues.length > 0 && !parsed.filterColumn) {
+    throw new Error("--filter-values requires --filter-column");
+  }
+
   if (parsed.words.length > 0) {
     if (!limitProvided) parsed.limit = parsed.words.length;
     if (!packSlugProvided) parsed.packSlug = `pronunciation-backfill-${today}`;
     if (!packNameProvided) parsed.packName = BACKFILL_PACK_NAME;
     if (!sourceIdProvided) parsed.sourceId = BACKFILL_SOURCE_ID;
+    if (parsed.baseTags.length === 0) parsed.baseTags = ["pronunciation-backfill"];
+    parsed.preserveExistingSource = !sourceIdProvided;
+  } else if (hasExternalWordList) {
+    if (!packSlugProvided) parsed.packSlug = `external-word-list-${today}`;
+    if (!packNameProvided) parsed.packName = "External Word List Vocabulary";
+    if (!sourceIdProvided) parsed.sourceId = "external-word-list-dictionaryapi";
+    if (parsed.baseTags.length === 0) parsed.baseTags = ["external-word-list"];
   }
 
   if (!Number.isInteger(parsed.limit) || parsed.limit < 1) {
@@ -300,7 +428,10 @@ function parseArgs(args: string[]): Options {
 }
 
 function printHelpAndExit(): never {
-  console.log(`Usage: npm run import:basic-vocabulary -- [options]
+  console.log(`Usage: npm run import:vocabulary -- [options]
+
+Legacy alias:
+  npm run import:basic-vocabulary -- [options]
 
 Options:
   --limit <number>       Number of words with saved audio to import. Default: ${DEFAULT_LIMIT}
@@ -311,13 +442,297 @@ Options:
   --pack-name <name>     Resource pack display name
   --source-id <id>       Source id written to imported audio assets
   --words <csv>          Comma-separated words to import instead of the Dale-Chall list
+  --word-list-url <url>  External CSV/TXT word list URL
+  --word-list-file <p>   External CSV/TXT word list file
+  --word-column <name>   CSV column that contains the word. Defaults to word/headword/first column
+  --filter-column <name> CSV column used for filtering, e.g. CEFR
+  --filter-values <csv>  Accepted values for --filter-column, e.g. A1,A2
+  --source-name <name>   Source name written to the resource pack manifest
+  --source-url <url>     Source URL written to the resource pack manifest
+  --source-license <txt> Source license or terms written to the resource pack manifest
+  --tag <csv>            Tags added to every imported word. Can be repeated
+  --word-list-only       Import source words/metadata only; do not fetch dictionary definitions or audio
 `);
   process.exit(0);
+}
+
+async function loadCandidateItems(importOptions: Options): Promise<CandidateItem[]> {
+  let items: CandidateItem[];
+  if (importOptions.words.length > 0) {
+    items = importOptions.words.map((word) => ({ word, tags: importOptions.baseTags }));
+  } else if (importOptions.wordListUrl || importOptions.wordListFile) {
+    const text = importOptions.wordListUrl
+      ? await fetchText(importOptions.wordListUrl)
+      : readFileSync(importOptions.wordListFile, "utf8");
+    items = parseExternalWordList(text, importOptions);
+  } else {
+    const words = await fetchDaleChallCandidates(0);
+    items = words.map((word) => ({ word, tags: ["basic", "dale-chall"] }));
+  }
+  return uniqueCandidateItems(items).slice(importOptions.offset);
 }
 
 async function fetchDaleChallCandidates(offset: number): Promise<string[]> {
   const wordListSource = await fetchText(DALE_CHALL_URL);
   return parseDaleChallWords(wordListSource).slice(offset);
+}
+
+function parseExternalWordList(text: string, importOptions: Options): CandidateItem[] {
+  const trimmed = text.trim();
+  if (!trimmed) return [];
+
+  if (looksLikeJson(trimmed)) {
+    return parseJsonWordList(trimmed, importOptions);
+  }
+
+  if (importOptions.wordColumn || looksLikeCsv(trimmed)) {
+    return parseCsvRecords(trimmed)
+      .filter((row) => rowMatchesFilter(row, importOptions))
+      .map((row) => {
+        const word = pickWordFromRow(row, importOptions.wordColumn);
+        return {
+          word,
+          phonetic: pickPhoneticFromRow(row),
+          definitionZh: pickDefinitionZhFromRow(row, importOptions.wordColumn),
+          tags: [...importOptions.baseTags, ...filterTags(row, importOptions)]
+        };
+      })
+      .filter((item) => item.word);
+  }
+
+  return trimmed
+    .split(/\r?\n/)
+    .map((line) => ({
+      word: extractLineWord(line),
+      phonetic: extractLinePhonetic(line),
+      definitionZh: extractLineDefinitionZh(line),
+      tags: importOptions.baseTags
+    }))
+    .filter((item) => item.word);
+}
+
+function looksLikeJson(text: string): boolean {
+  return text.startsWith("{") || text.startsWith("[");
+}
+
+function parseJsonWordList(text: string, importOptions: Options): CandidateItem[] {
+  const records = text.startsWith("[")
+    ? (JSON.parse(text) as unknown[])
+    : text
+        .split(/\r?\n/)
+        .map((line) => line.trim())
+        .filter(Boolean)
+        .map((line) => JSON.parse(line) as unknown);
+
+  return records.map((record) => candidateFromJson(record, importOptions)).filter((item) => item.word);
+}
+
+function candidateFromJson(record: unknown, importOptions: Options): CandidateItem {
+  if (typeof record === "string") return { word: record, tags: importOptions.baseTags };
+  if (!record || typeof record !== "object") return { word: "", tags: importOptions.baseTags };
+  const value = record as Record<string, unknown>;
+  const candidates = [
+    importOptions.wordColumn ? lookupJsonPath(value, importOptions.wordColumn) : "",
+    value.headWord,
+    value.headword,
+    value.word,
+    value.wordHead,
+    lookupJsonPath(value, "content.word.wordHead")
+  ];
+  const content = asRecord(lookupJsonPath(value, "content.word.content"));
+  return {
+    word: candidates.find((item): item is string => typeof item === "string" && item.trim().length > 0)?.trim() ?? "",
+    phonetic: compactText(String(content?.usphone ?? content?.ukphone ?? "")),
+    definitionZh: pickJsonDefinitionZh(content),
+    definitionEn: pickJsonDefinitionEn(content),
+    example: pickJsonExample(content),
+    tags: importOptions.baseTags
+  };
+}
+
+function lookupJsonPath(value: Record<string, unknown>, path: string): unknown {
+  return path
+    .split(".")
+    .filter(Boolean)
+    .reduce<unknown>((current, key) => {
+      if (!current || typeof current !== "object") return undefined;
+      return (current as Record<string, unknown>)[key];
+    }, value);
+}
+
+function extractLineWord(line: string): string {
+  const normalizedLine = line.replace(/^\uFEFF/, "").trim();
+  return normalizedLine.match(/^[A-Za-z][A-Za-z'-]*/)?.[0] ?? "";
+}
+
+function extractLinePhonetic(line: string): string {
+  return line.match(/\[[^\]]+\]|\/[^/]+\//)?.[0] ?? "";
+}
+
+function extractLineDefinitionZh(line: string): string {
+  const word = extractLineWord(line);
+  if (!word) return "";
+  return compactText(
+    line
+      .replace(/^\uFEFF/, "")
+      .trim()
+      .slice(word.length)
+      .replace(/^\s*(\[[^\]]+\]|\/[^/]+\/)?\s*/, "")
+  );
+}
+
+function looksLikeCsv(text: string): boolean {
+  const firstLine = text.split(/\r?\n/, 1)[0] ?? "";
+  return firstLine.includes(",") || firstLine.includes("\t");
+}
+
+function parseCsvRecords(text: string): Record<string, string>[] {
+  const rows = parseDelimitedRows(text);
+  if (rows.length === 0) return [];
+  const header = rows[0].map((cell) => cell.trim());
+  return rows.slice(1).map((row) =>
+    Object.fromEntries(header.map((column, index) => [column, (row[index] ?? "").trim()]))
+  );
+}
+
+function parseDelimitedRows(text: string): string[][] {
+  const delimiter = (text.split(/\r?\n/, 1)[0] ?? "").includes("\t") ? "\t" : ",";
+  const rows: string[][] = [];
+  let row: string[] = [];
+  let cell = "";
+  let inQuotes = false;
+
+  for (let index = 0; index < text.length; index += 1) {
+    const char = text[index];
+    const next = text[index + 1];
+
+    if (char === '"' && inQuotes && next === '"') {
+      cell += '"';
+      index += 1;
+      continue;
+    }
+
+    if (char === '"') {
+      inQuotes = !inQuotes;
+      continue;
+    }
+
+    if (char === delimiter && !inQuotes) {
+      row.push(cell);
+      cell = "";
+      continue;
+    }
+
+    if ((char === "\n" || char === "\r") && !inQuotes) {
+      if (char === "\r" && next === "\n") index += 1;
+      row.push(cell);
+      rows.push(row);
+      row = [];
+      cell = "";
+      continue;
+    }
+
+    cell += char;
+  }
+
+  row.push(cell);
+  rows.push(row);
+  return rows.filter((entry) => entry.some((cellValue) => cellValue.trim()));
+}
+
+function rowMatchesFilter(row: Record<string, string>, importOptions: Options): boolean {
+  if (!importOptions.filterColumn || importOptions.filterValues.length === 0) return true;
+  const value = lookupColumn(row, importOptions.filterColumn).toLowerCase();
+  return importOptions.filterValues.includes(value);
+}
+
+function pickWordFromRow(row: Record<string, string>, wordColumn: string): string {
+  if (wordColumn) return lookupColumn(row, wordColumn);
+  return lookupColumn(row, "word") || lookupColumn(row, "headword") || Object.values(row)[0] || "";
+}
+
+function lookupColumn(row: Record<string, string>, column: string): string {
+  const wanted = column.trim().toLowerCase();
+  const match = Object.keys(row).find((key) => key.trim().toLowerCase() === wanted);
+  return match ? row[match] ?? "" : "";
+}
+
+function pickPhoneticFromRow(row: Record<string, string>): string {
+  return lookupColumn(row, "phonetic") || lookupColumn(row, "phone") || "";
+}
+
+function pickDefinitionZhFromRow(row: Record<string, string>, wordColumn: string): string {
+  const direct =
+    lookupColumn(row, "definition_zh") ||
+    lookupColumn(row, "translation") ||
+    lookupColumn(row, "meaning") ||
+    lookupColumn(row, "trans");
+  if (direct) return direct;
+
+  const wordKey = wordColumn.trim().toLowerCase();
+  const values = Object.entries(row)
+    .filter(([key]) => !wordKey || key.trim().toLowerCase() !== wordKey)
+    .map(([, value]) => value)
+    .filter(Boolean);
+  return values[1] ?? values[0] ?? "";
+}
+
+function pickJsonDefinitionZh(content: Record<string, unknown> | null): string {
+  return asArray(content?.trans)
+    .map(asRecord)
+    .filter(Boolean)
+    .map((item) => [item?.pos, item?.tranCn].filter(Boolean).join(" "))
+    .filter(Boolean)
+    .join("; ");
+}
+
+function pickJsonDefinitionEn(content: Record<string, unknown> | null): string {
+  return asArray(content?.trans)
+    .map(asRecord)
+    .filter(Boolean)
+    .map((item) => String(item?.tranOther ?? ""))
+    .filter(Boolean)
+    .join("; ");
+}
+
+function pickJsonExample(content: Record<string, unknown> | null): string {
+  const sentences = asArray(asRecord(content?.sentence)?.sentences);
+  return String(asRecord(sentences[0])?.sContent ?? "");
+}
+
+function asRecord(value: unknown): Record<string, unknown> | null {
+  return value && typeof value === "object" && !Array.isArray(value) ? (value as Record<string, unknown>) : null;
+}
+
+function asArray(value: unknown): unknown[] {
+  return Array.isArray(value) ? value : [];
+}
+
+function filterTags(row: Record<string, string>, importOptions: Options): string[] {
+  if (!importOptions.filterColumn) return [];
+  const value = lookupColumn(row, importOptions.filterColumn);
+  if (!value) return [];
+  const key = importOptions.filterColumn.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+  return [`${key}:${value.toLowerCase()}`];
+}
+
+function uniqueCandidateItems(items: CandidateItem[]): CandidateItem[] {
+  const byWord = new Map<string, CandidateItem>();
+  for (const item of items) {
+    const word = normalizeWord(item.word);
+    if (!word) continue;
+    const existing = byWord.get(word);
+    if (existing) {
+      existing.tags = [...new Set([...existing.tags, ...item.tags])];
+      existing.phonetic ||= item.phonetic;
+      existing.definitionZh ||= item.definitionZh;
+      existing.definitionEn ||= item.definitionEn;
+      existing.example ||= item.example;
+    } else {
+      byWord.set(word, { ...item, word, tags: [...new Set(item.tags)] });
+    }
+  }
+  return [...byWord.values()];
 }
 
 function parseDaleChallWords(source: string): string[] {
@@ -343,9 +758,13 @@ function isImportableWord(word: string): boolean {
 
 async function lookupDictionary(word: string): Promise<DictionaryEntry[] | null> {
   const url = `${DICTIONARY_ENDPOINT}/${encodeURIComponent(word)}`;
-  const response = await fetchWithRetry(url, { headers: { "user-agent": USER_AGENT } });
-  if (!response.ok) return null;
-  return (await response.json()) as DictionaryEntry[];
+  try {
+    const response = await fetchWithRetry(url, { headers: { "user-agent": USER_AGENT } });
+    if (!response.ok) return null;
+    return (await response.json()) as DictionaryEntry[];
+  } catch {
+    return null;
+  }
 }
 
 function pickMeaning(entry: DictionaryEntry): { partOfSpeech: string; definition: string; example: string } | null {
@@ -380,12 +799,7 @@ async function lookupCommonsAudio(word: string): Promise<PhoneticEntry | null> {
     iiprop: "url|mime|extmetadata",
     titles: titles.join("|")
   });
-  const response = await fetchWithRetry(`${COMMONS_API_ENDPOINT}?${params}`, {
-    headers: { "user-agent": USER_AGENT }
-  });
-  if (!response.ok) return null;
-
-  const data = (await response.json()) as {
+  let data: {
     query?: {
       pages?: Record<
         string,
@@ -401,6 +815,15 @@ async function lookupCommonsAudio(word: string): Promise<PhoneticEntry | null> {
       >;
     };
   };
+  try {
+    const response = await fetchWithRetry(`${COMMONS_API_ENDPOINT}?${params}`, {
+      headers: { "user-agent": USER_AGENT }
+    });
+    if (!response.ok) return null;
+    data = (await response.json()) as typeof data;
+  } catch {
+    return null;
+  }
 
   for (const page of Object.values(data.query?.pages ?? {})) {
     const imageInfo = page.imageinfo?.[0];
@@ -433,9 +856,14 @@ async function searchCommonsAudioTitles(word: string): Promise<string[]> {
     srlimit: "10",
     srsearch: `${word} Q1860 eng`
   });
-  const response = await fetchWithRetry(`${COMMONS_API_ENDPOINT}?${searchParams}`, {
-    headers: { "user-agent": USER_AGENT }
-  });
+  let response: Response;
+  try {
+    response = await fetchWithRetry(`${COMMONS_API_ENDPOINT}?${searchParams}`, {
+      headers: { "user-agent": USER_AGENT }
+    });
+  } catch {
+    return exactCandidates;
+  }
   if (!response.ok) return exactCandidates;
 
   const data = (await response.json()) as {
@@ -469,19 +897,19 @@ function pickPhonetic(entry: DictionaryEntry, audio: PhoneticEntry): string {
   return compactText(audio.text ?? entry.phonetic ?? entry.phonetics?.find((phonetic) => phonetic.text)?.text ?? "");
 }
 
-function mergedTags(existingId: string | undefined, partOfSpeech: string): string[] {
+function mergedTags(existingId: string | undefined, partOfSpeech: string, candidateTags: string[]): string[] {
   const existingTags = existingId ? database.getWord(existingId)?.tags ?? [] : [];
-  return [...new Set([...existingTags, ...itemTags(partOfSpeech)])];
+  return [...new Set([...existingTags, ...itemTags(partOfSpeech, candidateTags)])];
 }
 
 function wordSource(existingId: string | undefined): string {
-  if (!existingId || options.words.length === 0) return options.sourceId;
+  if (!existingId || !options.preserveExistingSource) return options.sourceId;
   return database.getWord(existingId)?.source ?? options.sourceId;
 }
 
-function itemTags(partOfSpeech: string): string[] {
+function itemTags(partOfSpeech: string, candidateTags = options.baseTags): string[] {
   return [
-    ...(options.words.length > 0 ? ["pronunciation-backfill"] : ["basic", "dale-chall"]),
+    ...candidateTags,
     partOfSpeech ? `pos:${partOfSpeech}` : ""
   ].filter(Boolean);
 }
@@ -493,7 +921,12 @@ async function saveAudio(
   const audioUrl = normalizeAudioUrl(audio.audio ?? "");
   if (!audioUrl) return null;
 
-  const response = await fetchWithRetry(audioUrl, { headers: { "user-agent": USER_AGENT } });
+  let response: Response;
+  try {
+    response = await fetchWithRetry(audioUrl, { headers: { "user-agent": USER_AGENT } });
+  } catch {
+    return null;
+  }
   if (!response.ok) return null;
 
   const bytes = Buffer.from(await response.arrayBuffer());
@@ -543,9 +976,9 @@ function writePackFiles(report: ImportReport): void {
     createdAt: new Date().toISOString(),
     sourceId: options.sourceId,
     wordCount: report.imported.length,
-    audioCount: report.imported.length,
+    audioCount: audioCount(report.imported),
     sources: manifestSources(),
-    licenses: uniqueLicenses(report.imported),
+    licenses: resourcePackLicenses(report.imported),
     skipped: summarizeSkips(report.skipped),
     files: {
       dictionaryCsv: "dictionary.csv",
@@ -565,9 +998,9 @@ function csvForImportedItems(items: ImportedItem[]): string {
     word: item.word,
     phonetic: item.phonetic,
     definitionEn: item.definitionEn,
-    definitionZh: "",
+    definitionZh: item.definitionZh,
     example: item.example,
-    tags: itemTags(item.partOfSpeech),
+    tags: item.tags,
     audioFile: item.audioFile,
     source: options.sourceId
   }));
@@ -587,13 +1020,17 @@ function registerResourcePack(report: ImportReport): void {
     sources: resourcePackSources(),
     licenses: resourcePackLicenses(report.imported),
     wordCount: report.imported.length,
-    audioCount: report.imported.length
+    audioCount: audioCount(report.imported)
   });
+}
+
+function audioCount(items: ImportedItem[]): number {
+  return items.filter((item) => item.audioFile).length;
 }
 
 function manifestSources(): { name: string; url: string; license: string }[] {
   return [
-    ...(options.words.length === 0
+    ...(usesDaleChallSource()
       ? [
           {
             name: "words/dale-chall",
@@ -602,20 +1039,48 @@ function manifestSources(): { name: string; url: string; license: string }[] {
           }
         ]
       : []),
-    {
-      name: "Free Dictionary API",
-      url: "https://dictionaryapi.dev/",
-      license: "API data includes per-pronunciation source and license metadata"
-    }
+    ...(externalManifestSource() ? [externalManifestSource() as { name: string; url: string; license: string }] : []),
+    ...(!options.wordListOnly
+      ? [
+          {
+            name: "Free Dictionary API",
+            url: "https://dictionaryapi.dev/",
+            license: "API data includes per-pronunciation source and license metadata"
+          }
+        ]
+      : [])
   ];
 }
 
 function resourcePackSources(): string[] {
-  return [...(options.words.length === 0 ? ["words/dale-chall"] : []), "Free Dictionary API"];
+  return [
+    ...(usesDaleChallSource() ? ["words/dale-chall"] : []),
+    ...(externalManifestSource()?.name ? [externalManifestSource()?.name ?? ""] : []),
+    ...(!options.wordListOnly ? ["Free Dictionary API"] : [])
+  ].filter(Boolean);
 }
 
 function resourcePackLicenses(items: ImportedItem[]): string[] {
-  return [...(options.words.length === 0 ? ["words/dale-chall: MIT"] : []), ...uniqueLicenses(items)];
+  return [
+    ...(usesDaleChallSource() ? ["words/dale-chall: MIT"] : []),
+    ...(externalManifestSource()?.license ? [`${externalManifestSource()?.name}: ${externalManifestSource()?.license}`] : []),
+    ...uniqueLicenses(items)
+  ];
+}
+
+function usesDaleChallSource(): boolean {
+  return options.words.length === 0 && !options.wordListUrl && !options.wordListFile;
+}
+
+function externalManifestSource(): { name: string; url: string; license: string } | null {
+  if (!options.wordListUrl && !options.wordListFile && !options.sourceName && !options.sourceUrl && !options.sourceLicense) {
+    return null;
+  }
+  return {
+    name: options.sourceName || "External word list",
+    url: options.sourceUrl || options.wordListUrl || "",
+    license: options.sourceLicense || "Unspecified"
+  };
 }
 
 function uniqueLicenses(items: ImportedItem[]): string[] {
@@ -641,19 +1106,28 @@ async function fetchText(url: string): Promise<string> {
   return response.text();
 }
 
-async function fetchWithRetry(url: string, init: RequestInit, attempts = 3): Promise<Response> {
+async function fetchWithRetry(url: string, init: RequestInit, attempts = 5): Promise<Response> {
   let lastError: unknown;
   for (let attempt = 1; attempt <= attempts; attempt += 1) {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
+    let retryDelayMs = 500 * attempt;
     try {
-      const response = await fetch(url, init);
+      const response = await fetch(url, { ...init, signal: controller.signal });
       if (response.status !== 429 && response.status < 500) return response;
       lastError = new Error(`HTTP ${response.status}`);
+      if (response.status === 429) {
+        const retryAfterSeconds = Number(response.headers.get("retry-after") ?? 0);
+        retryDelayMs = Math.max(retryAfterSeconds * 1000, 2000 * attempt);
+      }
     } catch (error) {
       lastError = error;
+    } finally {
+      clearTimeout(timeout);
     }
 
     if (attempt < attempts) {
-      await delay(500 * attempt);
+      await delay(retryDelayMs);
     }
   }
   throw lastError instanceof Error ? lastError : new Error(String(lastError));
@@ -665,6 +1139,13 @@ function compactText(value: string): string {
 
 function stripHtml(value: string): string {
   return value.replace(/<[^>]*>/g, "").replace(/\s+/g, " ").trim();
+}
+
+function splitList(value: string): string[] {
+  return value
+    .split(/[;,，；]/)
+    .map((item) => item.trim())
+    .filter(Boolean);
 }
 
 function delay(ms: number): Promise<void> {

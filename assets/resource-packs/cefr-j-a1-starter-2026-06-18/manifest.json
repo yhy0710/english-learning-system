@@ -1,0 +1,38 @@
+{
+  "name": "CEFR-J A1 Starter Vocabulary",
+  "version": "cefr-j-a1-starter-2026-06-18",
+  "createdAt": "2026-06-18T02:14:38.127Z",
+  "sourceId": "cefr-j-a1-dictionaryapi",
+  "wordCount": 200,
+  "audioCount": 200,
+  "sources": [
+    {
+      "name": "CEFR-J Vocabulary Profile 1.5",
+      "url": "https://github.com/openlanguageprofiles/olp-en-cefrj",
+      "license": "Free use for research and commercial purposes with proper citation; copyright Tono Laboratory at TUFS"
+    },
+    {
+      "name": "Free Dictionary API",
+      "url": "https://dictionaryapi.dev/",
+      "license": "API data includes per-pronunciation source and license metadata"
+    }
+  ],
+  "licenses": [
+    "CEFR-J Vocabulary Profile 1.5: Free use for research and commercial purposes with proper citation; copyright Tono Laboratory at TUFS",
+    "BY 3.0 US https://creativecommons.org/licenses/by/3.0/us",
+    "BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0",
+    "BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0",
+    "CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0",
+    "CC0 http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  ],
+  "skipped": {
+    "unsupported word shape": 6,
+    "no dictionary entry": 3,
+    "no pronunciation audio": 3
+  },
+  "files": {
+    "dictionaryCsv": "dictionary.csv",
+    "audioIndex": "audio-index.json",
+    "audioDirectory": "audio/"
+  }
+}

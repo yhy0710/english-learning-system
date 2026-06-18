@@ -12,6 +12,7 @@
     "dev:server": "npm --workspace @els/server run dev",
     "dev:web": "npm --workspace @els/web run dev",
     "import:basic-vocabulary": "tsx scripts/import-basic-vocabulary.ts",
+    "import:vocabulary": "tsx scripts/import-basic-vocabulary.ts",
     "build:android:debug": "cd apps/mobile/android && JAVA_HOME=/Users/yanghuanyu/Library/Java/JavaVirtualMachines/ms-17.0.18/Contents/Home ANDROID_HOME=\"/Users/yanghuanyu/codex/English Learning System/.android-sdk\" ANDROID_SDK_ROOT=\"/Users/yanghuanyu/codex/English Learning System/.android-sdk\" ./gradlew assembleDebug",
     "build": "npm run build --workspaces --if-present",
     "test": "npm run test --workspaces --if-present",

@@ -1,0 +1,24 @@
+{
+  "name": "CET6 Core Vocabulary",
+  "version": "common-cet6-core-2026-06-18",
+  "createdAt": "2026-06-18T05:46:57.126Z",
+  "sourceId": "sholvoir-cet6-wordlist",
+  "wordCount": 1000,
+  "audioCount": 0,
+  "sources": [
+    {
+      "name": "sholvoir/vocabulary CET6-1",
+      "url": "https://github.com/sholvoir/vocabulary",
+      "license": "MIT; original data sources documented in sholvoir/vocabulary README"
+    }
+  ],
+  "licenses": [
+    "sholvoir/vocabulary CET6-1: MIT; original data sources documented in sholvoir/vocabulary README"
+  ],
+  "skipped": {},
+  "files": {
+    "dictionaryCsv": "dictionary.csv",
+    "audioIndex": "audio-index.json",
+    "audioDirectory": "audio/"
+  }
+}

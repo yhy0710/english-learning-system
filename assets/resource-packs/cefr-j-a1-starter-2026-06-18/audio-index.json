@@ -1,0 +1,4602 @@
+[
+  {
+    "word": "a",
+    "normalized": "a",
+    "phonetic": "/eɪ/",
+    "definitionEn": "The name of the Latin script letter A/a.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/a.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/a-1-us.mp3",
+    "audioSha256": "af911e76173daa31c8d6033af0ee456cc3bc70e5c0db464d64f8666dd9ae7181",
+    "license": {
+      "name": "",
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1220808"
+    }
+  },
+  {
+    "word": "about",
+    "normalized": "about",
+    "phonetic": "/əˈbaʊt/",
+    "definitionEn": "Moving around; astir.",
+    "example": "After my bout with Guillan-Barre Syndrome, it took me 6 months to be up and about again.",
+    "partOfSpeech": "adjective",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:adjective"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/about.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/about-us.mp3",
+    "audioSha256": "6ba011b89a6f5ac9c03583914e230521a30de42c6f6862752bd09a98671f9683",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=191960"
+    }
+  },
+  {
+    "word": "above",
+    "normalized": "above",
+    "phonetic": "/əˈbʌv/",
+    "definitionEn": "Heaven.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/above.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/above-us.mp3",
+    "audioSha256": "016b1112d6328d6ff4e1a0fc15e7e04464993cc7f00d47696ec0a9690eb84e85",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=619790"
+    }
+  },
+  {
+    "word": "action",
+    "normalized": "action",
+    "phonetic": "/ˈæk.ʃən/",
+    "definitionEn": "Something done so as to accomplish a purpose.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/action.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/action-us.mp3",
+    "audioSha256": "0f2b864f6eb38a92b7a8e79fa74e769490df5295bc27a7894f44c45adff39f6e",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1227724"
+    }
+  },
+  {
+    "word": "activity",
+    "normalized": "activity",
+    "phonetic": "/ækˈtɪ.və.ti/",
+    "definitionEn": "The state or quality of being active; activeness.",
+    "example": "Pit row was abuzz with activity.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/activity.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/activity-us.mp3",
+    "audioSha256": "c0639141104ecc75eea38a30af075e642d7e863f6d6bb7ac1fc68006fc3dfa39",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1749696"
+    }
+  },
+  {
+    "word": "actor",
+    "normalized": "actor",
+    "phonetic": "/ˈæk.tɚ/",
+    "definitionEn": "A person who performs, plays a part in a theatrical play or film.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/actor.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/actor-us.mp3",
+    "audioSha256": "41fbc8187a78c1039bf4846d03db94f469498ccb38153ff734d9b40c0095871f",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1762567"
+    }
+  },
+  {
+    "word": "add",
+    "normalized": "add",
+    "phonetic": "/æd/",
+    "definitionEn": "An act or instance of adding.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/add.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/add-us.mp3",
+    "audioSha256": "e7b6f8cceca01f1aadfbcf224424df56fcb48d401433517d0dcb5a094b13fa4b",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1648200"
+    }
+  },
+  {
+    "word": "address",
+    "normalized": "address",
+    "phonetic": "/æˈdɹɛs/",
+    "definitionEn": "Direction.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/address.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/address-us.mp3",
+    "audioSha256": "e7a5329504e56ea294865747bdfcac48fc5ac6ab8b8c0fa66bda6e5822939bfa",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1769267"
+    }
+  },
+  {
+    "word": "afraid",
+    "normalized": "afraid",
+    "phonetic": "/əˈfɹeɪd/",
+    "definitionEn": "(usually used predicatively, not attributively, be afraid) Impressed with fear or apprehension; in fear.",
+    "example": "He is afraid of death.",
+    "partOfSpeech": "adjective",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:adjective"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/afraid.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/afraid-us.mp3",
+    "audioSha256": "7b488465170cdaaa6755c89a07683965945912f2e08e0b940b3080c21e495db5",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1224289"
+    }
+  },
+  {
+    "word": "after",
+    "normalized": "after",
+    "phonetic": "/ˈæf.tɚ/",
+    "definitionEn": "Later; second (of two); next, following, subsequent",
+    "example": "",
+    "partOfSpeech": "adjective",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:adjective"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/after.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/after-us.mp3",
+    "audioSha256": "80e5ef4a74011cee08607e3fe7c40f319f6b90daf3cdc1846355a9f97b801390",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=191972"
+    }
+  },
+  {
+    "word": "afternoon",
+    "normalized": "afternoon",
+    "phonetic": "/ˌæf.tɚ.ˈnun/",
+    "definitionEn": "The part of the day from noon or lunchtime until sunset, evening, or suppertime or 6pm.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/afternoon.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/afternoon-us.mp3",
+    "audioSha256": "5d095f19705e9f6aff9360d982e3dad5b9f55f48f45ac7d72af4f3fb9f465c02",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1239775"
+    }
+  },
+  {
+    "word": "again",
+    "normalized": "again",
+    "phonetic": "/əˈɡeɪn/",
+    "definitionEn": "Another time; once more.",
+    "example": "",
+    "partOfSpeech": "adverb",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:adverb"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/again.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/again-uk.mp3",
+    "audioSha256": "201af3667fdc26ecf1e8b7ad0c37d4a78cccb30d13f913854adb2b023f8db338",
+    "license": {
+      "name": "BY 3.0 US",
+      "url": "https://creativecommons.org/licenses/by/3.0/us",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=9014240"
+    }
+  },
+  {
+    "word": "age",
+    "normalized": "age",
+    "phonetic": "/eɪd͡ʒ/",
+    "definitionEn": "The whole duration of a being, whether animal, plant, or other kind, being alive.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/age.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/age-us.mp3",
+    "audioSha256": "8db88d5ca60bc258b526d4aaf0317ab9745498c6f5cc92ff40b8f87373337b7f",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=563109"
+    }
+  },
+  {
+    "word": "ago",
+    "normalized": "ago",
+    "phonetic": "/əˈɡoʊ/",
+    "definitionEn": "Gone; gone by; gone away; passed; passed away.",
+    "example": "in days ago/in days agone",
+    "partOfSpeech": "adjective",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:adjective"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/ago.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/ago-us.mp3",
+    "audioSha256": "1f0744b03e932e0122e28a44326d99dbadf3ba68e8c006bc9e51ee118a5d8661",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1224283"
+    }
+  },
+  {
+    "word": "agree",
+    "normalized": "agree",
+    "phonetic": "/əˈɡɹi/",
+    "definitionEn": "To harmonize in opinion, statement, or action; to be in unison or concord; to be or become united or consistent; to concur.",
+    "example": "all parties agree in the expediency of the law.",
+    "partOfSpeech": "verb",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:verb"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/agree.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/agree-us.mp3",
+    "audioSha256": "bc30b9a82dd228fbfd4abfd5679a336c2da13137d1cf4782c4502ab146514da9",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1234347"
+    }
+  },
+  {
+    "word": "airport",
+    "normalized": "airport",
+    "phonetic": "/ˈɛɹ.pɔɹt/",
+    "definitionEn": "An airfield (an area designated for the takeoff and landing of aircraft), including one or more runways and (for commercial airports) one or more passenger terminals.",
+    "example": "Because of this, and contrary to popular belief, British airports primarily act as giant wealth extractors, transporting our richest citizens out of the country as often as possible to take their money overseas. ― The Independent, Heathrow expansion to mainly benefit wealthy frequent fliers, research finds, 23 june 2018.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/airport.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/airport-us.mp3",
+    "audioSha256": "6bcef108be52d4f6133334db29547d150780354cfd85a9be0878fbba84a66ed5",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1317166"
+    }
+  },
+  {
+    "word": "album",
+    "normalized": "album",
+    "phonetic": "/ˈælbəm/",
+    "definitionEn": "A book specially designed to keep photographs, stamps, or autographs.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/album.wav",
+    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/LL-Q1860_%28eng%29-Back_ache-album.wav",
+    "audioSha256": "7d6841fbe77dd00986a298e646b3e729740477d8293408bcb57362006378da03",
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Back_ache-album.wav"
+    }
+  },
+  {
+    "word": "all",
+    "normalized": "all",
+    "phonetic": "/ɔl/",
+    "definitionEn": "(with a possessive pronoun) Everything that one is capable of.",
+    "example": "She gave her all, and collapsed at the finish line.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/all.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/all-us.mp3",
+    "audioSha256": "26d1a05ba0db08c6cf3782e038c3700862431370ee55e25b0e7152c5f85e5cf1",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=191983"
+    }
+  },
+  {
+    "word": "almost",
+    "normalized": "almost",
+    "phonetic": "/ˈɑl.moʊst/",
+    "definitionEn": "Something or someone that doesn't quite make it.",
+    "example": "In all the submissions, they found four papers that were clearly worth publishing and another dozen almosts.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/almost.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/almost-us.mp3",
+    "audioSha256": "f811994749f38c964f4640a9101daf5945ffc8ab9e24a9d265e81513a3fbce3b",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=207892"
+    }
+  },
+  {
+    "word": "alone",
+    "normalized": "alone",
+    "phonetic": "/əˈloʊn/",
+    "definitionEn": "By oneself, solitary.",
+    "example": "I can't ask for help because I am alone.",
+    "partOfSpeech": "adjective",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:adjective"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/alone.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/alone-us.mp3",
+    "audioSha256": "7b342e896fe88e3b9a5fd14472b4ab20f4a9b00804753f9a7d41d02bbc817031",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1224184"
+    }
+  },
+  {
+    "word": "along",
+    "normalized": "along",
+    "phonetic": "/əˈlɔŋ/",
+    "definitionEn": "In company; together.",
+    "example": "John played the piano and everyone sang along.",
+    "partOfSpeech": "adverb",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:adverb"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/along.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/along-us.mp3",
+    "audioSha256": "58d79304d487c150f5703cd94129eac556253f258c268e5b7fcb0da20fbaac7e",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=709459"
+    }
+  },
+  {
+    "word": "already",
+    "normalized": "already",
+    "phonetic": "/ɔlˈɹɛdi/",
+    "definitionEn": "Prior to some specified time, either past, present, or future; by this time; previously.",
+    "example": "",
+    "partOfSpeech": "adverb",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:adverb"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/already.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/already-1-us.mp3",
+    "audioSha256": "89cfda7ffc64a7eb44d4448bfb75f2ae88077ddc84714d6d3901833c504c2e6c",
+    "license": {
+      "name": "",
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=354101"
+    }
+  },
+  {
+    "word": "also",
+    "normalized": "also",
+    "phonetic": "/ˈɔl.soʊ/",
+    "definitionEn": "(focus) In addition; besides; as well; further; too.",
+    "example": "They had porridge for breakfast, and also toast.",
+    "partOfSpeech": "adverb",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:adverb"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/also.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/also-us.mp3",
+    "audioSha256": "516ecd9eb79e7856b9afb531a4008946cff4499afd9c8b59a590032b4561eef7",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=709453"
+    }
+  },
+  {
+    "word": "always",
+    "normalized": "always",
+    "phonetic": "/ˈɔl.weɪz/",
+    "definitionEn": "At all times; throughout all time; since the beginning.",
+    "example": "Airplanes did not always exist as a form of transportation.",
+    "partOfSpeech": "adverb",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:adverb"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/always.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/always-us.mp3",
+    "audioSha256": "788ac07fa2f3b3658b9db6f0d8a67a7f30c3cbc3c77b5455a0d24016f3262870",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=563111"
+    }
+  },
+  {
+    "word": "am",
+    "normalized": "am",
+    "phonetic": "[ɛ̃ə̃ːm]",
+    "definitionEn": "Before noon.",
+    "example": "",
+    "partOfSpeech": "adverb",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:adverb"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/am.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/am-us.mp3",
+    "audioSha256": "059531d113b27258f8e05a44b4779f24f2c45ec9747f28664c5219da04f8d187",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1217965"
+    }
+  },
+  {
+    "word": "an",
+    "normalized": "an",
+    "phonetic": "/æn/",
+    "definitionEn": "One",
+    "example": "",
+    "partOfSpeech": "numeral",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:numeral"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/an.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/an-us-stressed.mp3",
+    "audioSha256": "81e3ee04e2b64c5ed4dfec3f40ab80065fcd1612d56361dbfeadfbc5b8ceeafc",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1217937"
+    }
+  },
+  {
+    "word": "and",
+    "normalized": "and",
+    "phonetic": "",
+    "definitionEn": "In rhythm, the second half of a divided beat.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/and.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/and-us.mp3",
+    "audioSha256": "60e9247312b2a2ff120483a1ee3c266492a24f9c74751f92d4002e36636f5399",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=192031"
+    }
+  },
+  {
+    "word": "angry",
+    "normalized": "angry",
+    "phonetic": "/ˈæŋ.ɡɹi/",
+    "definitionEn": "Displaying or feeling anger.",
+    "example": "An angry mob started looting the warehouse.",
+    "partOfSpeech": "adjective",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:adjective"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/angry.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/angry-us.mp3",
+    "audioSha256": "64d0cf01d1b3df6d6d714d47e821606a70aeec3ad20d992a9318127537504af4",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=718867"
+    }
+  },
+  {
+    "word": "animal",
+    "normalized": "animal",
+    "phonetic": "/ˈænɪməl/",
+    "definitionEn": "In scientific usage, a multicellular organism that is usually mobile, whose cells are not encased in a rigid cell wall (distinguishing it from plants and fungi) and which derives energy solely from the consumption of other organisms (distinguishing it from plants).",
+    "example": "A cat is an animal, not a plant. Humans are also animals, under the scientific definition, as we are not plants.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/animal.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/animal-us.mp3",
+    "audioSha256": "2910c1e5cbe90eb9248be54e91e207aed1e04c52fb52e88b39e68c72e0b0606a",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=718870"
+    }
+  },
+  {
+    "word": "another",
+    "normalized": "another",
+    "phonetic": "/æˈnʌð.ə(ɹ)/",
+    "definitionEn": "An additional one of the same kind.",
+    "example": "There is one sterling and here is another",
+    "partOfSpeech": "pronoun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:pronoun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/another.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/another-us.mp3",
+    "audioSha256": "6ded2cdb755be3867eacab0abd98162c1bef49bce270793b9c6948cfc60fd4d0",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=667283"
+    }
+  },
+  {
+    "word": "answer",
+    "normalized": "answer",
+    "phonetic": "/ˈæn.sɚ/",
+    "definitionEn": "A response or reply; something said or done in reaction to a statement or question.",
+    "example": "Her answer to his proposal was a slap in the face.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/answer.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/answer-us.mp3",
+    "audioSha256": "cebad388f7b9ee9b45e6efa9f72dac50224919fae25892fba22775878292ed6b",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=718871"
+    }
+  },
+  {
+    "word": "any",
+    "normalized": "any",
+    "phonetic": "/ˈɛni/",
+    "definitionEn": "To even the slightest extent, at all.",
+    "example": "I will not remain here any longer.",
+    "partOfSpeech": "adverb",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:adverb"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/any.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/any-us.mp3",
+    "audioSha256": "ea46b3a658233985b38041bbb7acb31b7f102276548c6db8c0faba022d28d3e2",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=707626"
+    }
+  },
+  {
+    "word": "anybody",
+    "normalized": "anybody",
+    "phonetic": "/ˈɛn.i.bɑd.i/",
+    "definitionEn": "Any one out of an indefinite number of persons; anyone; any person.",
+    "example": "Anybody will do.",
+    "partOfSpeech": "pronoun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:pronoun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/anybody.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/anybody-us.mp3",
+    "audioSha256": "a5dfd54474226450d90547b992a6c043adb6774e0b86c0cb1ca883720d666493",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1229354"
+    }
+  },
+  {
+    "word": "anyone",
+    "normalized": "anyone",
+    "phonetic": "/ˈæniˌwʌn/",
+    "definitionEn": "Any person; anybody.",
+    "example": "Almost anyone can change a light bulb.",
+    "partOfSpeech": "pronoun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:pronoun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/anyone.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/anyone-us.mp3",
+    "audioSha256": "4acd9c409e9c9bf8840554a27ed5585767cd44e3fcdd291c869753baa428aac0",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1224254"
+    }
+  },
+  {
+    "word": "anything",
+    "normalized": "anything",
+    "phonetic": "/ˈɛn.i.θɪŋ/",
+    "definitionEn": "Someone or something of importance.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/anything.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/anything-us.mp3",
+    "audioSha256": "a430da99bccd71436988d6321700aeeac94f01e8593f8ae415fbd5efacedd291",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1217985"
+    }
+  },
+  {
+    "word": "apple",
+    "normalized": "apple",
+    "phonetic": "/ˈæp.əl/",
+    "definitionEn": "A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/apple.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/apple-us.mp3",
+    "audioSha256": "d186d1366321c7e0ae37b0fad4cab0eaf687cb22566882d3b041e905e9436b6b",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=718877"
+    }
+  },
+  {
+    "word": "apron",
+    "normalized": "apron",
+    "phonetic": "/ˈeɪ.pɹən/",
+    "definitionEn": "An article of clothing worn over the front of the torso and/or legs for protection from spills; also historically worn by Freemasons and as part of women's fashion.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/apron.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/apron-us.mp3",
+    "audioSha256": "f336898fbbaa22970d87433290cd04a177637bffbce8f98fbf76856bb74e32db",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1317627"
+    }
+  },
+  {
+    "word": "arm",
+    "normalized": "arm",
+    "phonetic": "/ɑɹm/",
+    "definitionEn": "The portion of the upper human appendage, from the shoulder to the wrist and sometimes including the hand.",
+    "example": "She stood with her right arm extended and her palm forward to indicate “Stop!”",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/arm.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/arm-us.mp3",
+    "audioSha256": "42fb8b7aec28090aa1db85cb3b16206c1bb8a46ad66dacef735ebe4d3fa05a19",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=718880"
+    }
+  },
+  {
+    "word": "around",
+    "normalized": "around",
+    "phonetic": "/əˈɹaʊnd/",
+    "definitionEn": "(with the verb \"to be\") Present in the vicinity.",
+    "example": "Is Clare around today?",
+    "partOfSpeech": "adjective",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:adjective"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/around.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/around-us.mp3",
+    "audioSha256": "181bc0064c218b0bba16c69989bfd4c3f65f8fde931ee904a4218bb10e9662b7",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=709449"
+    }
+  },
+  {
+    "word": "arrive",
+    "normalized": "arrive",
+    "phonetic": "/əˈɹaɪv/",
+    "definitionEn": "To reach; to get to a certain place.",
+    "example": "He arrived home for two days.",
+    "partOfSpeech": "verb",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:verb"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/arrive.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/arrive-us.mp3",
+    "audioSha256": "c8e51a35e3442777a405767a3d63255ca9bb0a287525ee73f0f0270bf4189bf5",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=2100328"
+    }
+  },
+  {
+    "word": "art",
+    "normalized": "art",
+    "phonetic": "/ɑɹt/",
+    "definitionEn": "The conscious production or arrangement of sounds, colours, forms, movements, or other elements in a manner that affects the senses and emotions, usually specifically the production of the beautiful in a graphic or plastic medium.",
+    "example": "There is a debate as to whether graffiti is art or vandalism.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/art.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/art-us.mp3",
+    "audioSha256": "876bd6388cc3e5f001f9584c9e35d3bb2226f4df90c77fb9a0284e16b6ee70c1",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=718886"
+    }
+  },
+  {
+    "word": "article",
+    "normalized": "article",
+    "phonetic": "/ˈɑɹtəkl̩/",
+    "definitionEn": "A piece of nonfictional writing such as a story, report, opinion piece, or entry in a newspaper, magazine, journal, dictionary, encyclopedia, etc.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/article.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/article-us.mp3",
+    "audioSha256": "c475dd75235e80cd050a2b5360cfaa77fbc22b591e658a3ab58e5cf4f2b88227",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1676693"
+    }
+  },
+  {
+    "word": "as",
+    "normalized": "as",
+    "phonetic": "",
+    "definitionEn": "To such an extent or degree; to the same extent or degree.",
+    "example": "It's not as well made, but it's twice as expensive.",
+    "partOfSpeech": "adverb",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:adverb"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/as.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/as-1-us.mp3",
+    "audioSha256": "e4b2351e8b512a51d1396bd6ba48975e90cffa2c79d8896eac1ec996ac8daa59",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=192078"
+    }
+  },
+  {
+    "word": "ask",
+    "normalized": "ask",
+    "phonetic": "/eəsk/",
+    "definitionEn": "An act or instance of asking.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/ask.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/ask-us.mp3",
+    "audioSha256": "be61fd81e689cbff447f2e30d4e3324bb6c3d2186d075ac2eb953439b01493e2",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1222259"
+    }
+  },
+  {
+    "word": "at",
+    "normalized": "at",
+    "phonetic": "",
+    "definitionEn": "To reply to or talk to someone, either online or face-to-face. (from the practice of targeting a message or reply to someone online by writing @name)",
+    "example": "Cars 2 is the most influential film of all time. Don't @ me.",
+    "partOfSpeech": "verb",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:verb"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/at.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/at-us.mp3",
+    "audioSha256": "d8211e49d0a04980ea894dac16087fa0f8d1ffb77a0b354e9941d21734f2366b",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=192081"
+    }
+  },
+  {
+    "word": "august",
+    "normalized": "august",
+    "phonetic": "/ɔːˈɡʌst/",
+    "definitionEn": "Awe-inspiring, majestic, noble, venerable.",
+    "example": "an august patron of the arts",
+    "partOfSpeech": "adjective",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:adjective"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/august.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/august-us.mp3",
+    "audioSha256": "78a7d0f8a28a58c3692e1c78a126caae70c863ea60bf9e98c37e58f86c7c4127",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=473902"
+    }
+  },
+  {
+    "word": "aunt",
+    "normalized": "aunt",
+    "phonetic": "/eɪnt/",
+    "definitionEn": "The sister or sister-in-law of one’s parent.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/aunt.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/aunt-us.mp3",
+    "audioSha256": "eb44887aefc970af53589ff048d377531e20ef4fa78742168463632d1dc09ff0",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1235968"
+    }
+  },
+  {
+    "word": "autumn",
+    "normalized": "autumn",
+    "phonetic": "/ˈɔtəm/",
+    "definitionEn": "Traditionally the third of the four seasons, when deciduous trees lose their leaves; typically regarded as being from September 24 to December 22 in parts of the Northern Hemisphere, and the months of March, April and May in the Southern Hemisphere.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/autumn.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/autumn-us.mp3",
+    "audioSha256": "8970f2bb231736ef63307893bfcf41d557df48699729c177a5a77d592eff0c63",
+    "license": {
+      "name": "",
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=65725"
+    }
+  },
+  {
+    "word": "awake",
+    "normalized": "awake",
+    "phonetic": "/əˈweɪk/",
+    "definitionEn": "Not asleep; conscious.",
+    "example": "",
+    "partOfSpeech": "adjective",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:adjective"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/awake.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/awake-us.mp3",
+    "audioSha256": "60ff6e6298e7f3fa8125946e40e1c9663fe1c8fcc06ba83ea03838d08cf12467",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=718901"
+    }
+  },
+  {
+    "word": "away",
+    "normalized": "away",
+    "phonetic": "/əˈweɪ/",
+    "definitionEn": "To depart; to go to another place.",
+    "example": "At 9 o'clock sharp he awayed to bed.",
+    "partOfSpeech": "verb",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:verb"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/away.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/away-1-us.mp3",
+    "audioSha256": "801d5c6f0374ed08cd02c668bc29988468baa95de222aa9008c55f6d38aee95b",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=617720"
+    }
+  },
+  {
+    "word": "baby",
+    "normalized": "baby",
+    "phonetic": "/ˈbeɪbi/",
+    "definitionEn": "A very young human, particularly from birth to a couple of years old or until walking is fully mastered.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/baby.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/baby-us.mp3",
+    "audioSha256": "b20cc20215595591b6b74ac754eb5594063b67cd0880a43cd0b19043871fc979",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=837148"
+    }
+  },
+  {
+    "word": "back",
+    "normalized": "back",
+    "phonetic": "/bæk/",
+    "definitionEn": "The rear of the body, especially the part between the neck and the end of the spine and opposite the chest and belly.",
+    "example": "Could you please scratch my back?",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/back.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/back-us.mp3",
+    "audioSha256": "0a20724c4dcdc0497d0d5c7b23de2da809b1bc1b8cd847fe94c8cee07268cd2a",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=709474"
+    }
+  },
+  {
+    "word": "bad",
+    "normalized": "bad",
+    "phonetic": "/beəd/",
+    "definitionEn": "Error, mistake.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/bad.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/bad-us.mp3",
+    "audioSha256": "153c9c7a8925f95cf4cceeb8fa53bac1bf85a886d947d6b7469e726f37c854a2",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=192097"
+    }
+  },
+  {
+    "word": "bag",
+    "normalized": "bag",
+    "phonetic": "/ˈbeɪɡ/",
+    "definitionEn": "A flexible container made of cloth, paper, plastic, etc.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/bag.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/bag-us.mp3",
+    "audioSha256": "35b4b6098e22b5e0f68fb6dcfe1a7a99c3acbf54cd6006fb37a50dcd4749f9d6",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=837150"
+    }
+  },
+  {
+    "word": "ball",
+    "normalized": "ball",
+    "phonetic": "/bɔːl/",
+    "definitionEn": "A solid or hollow sphere, or roughly spherical mass.",
+    "example": "a ball of spittle; a fecal ball",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/ball.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/ball-us.mp3",
+    "audioSha256": "4714c54ad8d0b3bd9b8eb4d8735d6ed1c7646a20c1ee6fbc4f42524f7093ab89",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=837155"
+    }
+  },
+  {
+    "word": "banana",
+    "normalized": "banana",
+    "phonetic": "/bəˈnænə/",
+    "definitionEn": "An elongated curved tropical fruit that grows in bunches and has a creamy flesh and a smooth skin.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/banana.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/banana-us.mp3",
+    "audioSha256": "9a33d598a7172f48baed4134dfa720b22d2bdaeb01247f83f4ec10913a5e9a8b",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1318008"
+    }
+  },
+  {
+    "word": "band",
+    "normalized": "band",
+    "phonetic": "/bænd/",
+    "definitionEn": "A strip of material used for strengthening or coupling.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/band.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/band-us.mp3",
+    "audioSha256": "385c7709589c9bd95d6522dbe703cc02d98c6cd0db5692b2cf89c835066ac026",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=837160"
+    }
+  },
+  {
+    "word": "bank",
+    "normalized": "bank",
+    "phonetic": "/bæŋk/",
+    "definitionEn": "An institution where one can place and borrow money and take care of financial affairs.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/bank.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/bank-us.mp3",
+    "audioSha256": "7f98bf8f688f93a6d49b41b1dd671c0d8f6d8d801ca38849ca9b8b7d915d0e99",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1250051"
+    }
+  },
+  {
+    "word": "bar",
+    "normalized": "bar",
+    "phonetic": "/bɑɹ/",
+    "definitionEn": "A solid, more or less rigid object of metal or wood with a uniform cross-section smaller than its length.",
+    "example": "The window was protected by steel bars.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/bar.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/bar-us.mp3",
+    "audioSha256": "48ca9891fc059c0f1faab3e3bd946f0535a940e02611d00811937249d5c4816f",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1235953"
+    }
+  },
+  {
+    "word": "baseball",
+    "normalized": "baseball",
+    "phonetic": "/ˈbeɪs.bɑl/",
+    "definitionEn": "A sport common in North America, the Caribbean, and Japan, in which the object is to strike a ball so that one of a nine-person team can run counter-clockwise among four bases, resulting in the scoring of a run. The team with the most runs after termination of play, usually nine innings, wins.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/baseball.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/baseball-us.mp3",
+    "audioSha256": "1ba97df149bb7853cf28faf6296f71934b16c6b42d483f87bcd0c43b518ef23e",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1769311"
+    }
+  },
+  {
+    "word": "basketball",
+    "normalized": "basketball",
+    "phonetic": "/ˈbæs.kɪt.bɔːl/",
+    "definitionEn": "A sport in which two opposing teams of five players strive to put a ball through a hoop.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/basketball.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/basketball-us.mp3",
+    "audioSha256": "3dd3aca40259a41894303916176626dc925909a0b147a55ed41a25b9ce9d06d1",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1769313"
+    }
+  },
+  {
+    "word": "bat",
+    "normalized": "bat",
+    "phonetic": "/bæt/",
+    "definitionEn": "Any of the flying mammals of the order Chiroptera, usually small and nocturnal, insectivorous or frugivorous.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/bat.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/bat-us.mp3",
+    "audioSha256": "e33ffd877352924079aa463e552360d337ba617312a98ab42d2745a77e4e5058",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=186943"
+    }
+  },
+  {
+    "word": "bath",
+    "normalized": "bath",
+    "phonetic": "[bæθ⁓bɛəθ⁓beəθ]",
+    "definitionEn": "A tub or pool which is used for bathing: bathtub.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/bath.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/bath-us.mp3",
+    "audioSha256": "ba5274864d7e89f7228f715dc11f17f9a8a4894d82e3cd5b1a9accaed295b125",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=399142"
+    }
+  },
+  {
+    "word": "bathroom",
+    "normalized": "bathroom",
+    "phonetic": "/ˈbæθ.ɹuːm/",
+    "definitionEn": "A room containing a shower and/or bathtub, and (typically but not necessarily) a toilet.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/bathroom.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/bathroom-us.mp3",
+    "audioSha256": "6b9148ac5712e93b9f75b044054749f2a493b81d8faba4a6c7f0a1233c6fc872",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1318082"
+    }
+  },
+  {
+    "word": "beach",
+    "normalized": "beach",
+    "phonetic": "/bit͡ʃ/",
+    "definitionEn": "The shore of a body of water, especially when sandy or pebbly.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/beach.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/beach-us.mp3",
+    "audioSha256": "043208f5900f2f689a7e76405d4198f4d59f2455bc59d310fca6b3b1fc939841",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1318130"
+    }
+  },
+  {
+    "word": "bean",
+    "normalized": "bean",
+    "phonetic": "/biːn/",
+    "definitionEn": "A reusable software component written in Java.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/bean.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/bean-us.mp3",
+    "audioSha256": "22f18ee4aba409f32f661087169ad3d5f10e92cd9eda5d29464c92301ec21b13",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1318148"
+    }
+  },
+  {
+    "word": "bear",
+    "normalized": "bear",
+    "phonetic": "/bɑɹ/",
+    "definitionEn": "A large omnivorous mammal, related to the dog and raccoon, having shaggy hair, a very small tail, and flat feet; a member of family Ursidae.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/bear.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/bear-us.mp3",
+    "audioSha256": "c9c21d9e84584af6530f70c67a276d40e2e0729a9c365c2879b22ab46f743c83",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=678156"
+    }
+  },
+  {
+    "word": "beautiful",
+    "normalized": "beautiful",
+    "phonetic": "/ˈbjuːtɪfəl/",
+    "definitionEn": "Someone who is beautiful. Can be used as a term of address.",
+    "example": "Hey, beautiful!",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/beautiful.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/beautiful-us.mp3",
+    "audioSha256": "f5a4ac72d09541b99dd82f56fa4a47eb0b58440a3e44d8697962b449bdb2f8b8",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=837183"
+    }
+  },
+  {
+    "word": "because",
+    "normalized": "because",
+    "phonetic": "/bɪˈkɒz/",
+    "definitionEn": "For the reason (that).",
+    "example": "",
+    "partOfSpeech": "adverb",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:adverb"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/because.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/because-us.mp3",
+    "audioSha256": "81046fe617af3d21fb5343dbe4555663d51da341a7b4a90d6162efc73ae2e053",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=709480"
+    }
+  },
+  {
+    "word": "become",
+    "normalized": "become",
+    "phonetic": "/biˈkʌm/",
+    "definitionEn": "To arrive, come (to a place).",
+    "example": "",
+    "partOfSpeech": "verb",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:verb"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/become.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/become-us.mp3",
+    "audioSha256": "250aebff06cd605c41e0e500018b5487d7d0d7c6ad4cb8788e0bd2eb87777f0e",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1227494"
+    }
+  },
+  {
+    "word": "bed",
+    "normalized": "bed",
+    "phonetic": "/bɛd/",
+    "definitionEn": "A piece of furniture, usually flat and soft, on which to rest or sleep.",
+    "example": "My cat often sleeps on my bed. I keep a glass of water next to my bed when I sleep.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/bed.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/bed-us.mp3",
+    "audioSha256": "1203497416022e61da0f72b5dd773f5a1d3581b5ff7e9fab733530a8d55c86ea",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=837178"
+    }
+  },
+  {
+    "word": "bedroom",
+    "normalized": "bedroom",
+    "phonetic": "/ˈbɛdɹʊm/",
+    "definitionEn": "A room in a house where a bed is kept for sleeping.",
+    "example": "Please don't enter my bedroom without knocking.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/bedroom.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/bedroom-us.mp3",
+    "audioSha256": "e0f9544bd1ca0065dc5727dbd4874bab10b754c50597ea83f1b632f7667d0413",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1318191"
+    }
+  },
+  {
+    "word": "bee",
+    "normalized": "bee",
+    "phonetic": "/ˈbiː/",
+    "definitionEn": "A flying insect, of the clade Anthophila within the hymenopteran superfamily Apoidea, known for its organised societies (though only a minority have them), for collecting pollen and (in some species) producing wax and honey.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/bee.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/bee-us.mp3",
+    "audioSha256": "436cad29e49855be458951a05cca86561d1d3c2e3f017e68b7a6079f20d14e09",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=500172"
+    }
+  },
+  {
+    "word": "beef",
+    "normalized": "beef",
+    "phonetic": "/biːf/",
+    "definitionEn": "The meat from a cow, bull or other bovine.",
+    "example": "I love eating beef.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/beef.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/beef-uk.mp3",
+    "audioSha256": "72c62b4dd9fae7e2c3b49fcf423311370a46462e17d9ac475a8976d20eeab8d6",
+    "license": {
+      "name": "BY 3.0 US",
+      "url": "https://creativecommons.org/licenses/by/3.0/us",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=9014278"
+    }
+  },
+  {
+    "word": "before",
+    "normalized": "before",
+    "phonetic": "/biˈfɔɹ/",
+    "definitionEn": "At an earlier time.",
+    "example": "I've never done this before.",
+    "partOfSpeech": "adverb",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:adverb"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/before.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/before-us.mp3",
+    "audioSha256": "046056f089fe7cf080b147e66a3f5b57470efa90bf67a45abbc0764a9f5b2938",
+    "license": {
+      "name": "",
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=317714"
+    }
+  },
+  {
+    "word": "begin",
+    "normalized": "begin",
+    "phonetic": "/biˈɡɪn/",
+    "definitionEn": "Beginning; start.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/begin.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/begin-us.mp3",
+    "audioSha256": "23f66618f9e91971bd149f56f9907881ab5b9f8f4f072d535509fcd354dc397c",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1239801"
+    }
+  },
+  {
+    "word": "behind",
+    "normalized": "behind",
+    "phonetic": "/bəˈhaɪnd/",
+    "definitionEn": "The rear, back-end",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/behind.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/behind-uk-adverb-preposition.mp3",
+    "audioSha256": "c1610da78e65cc4838a274d2992e9c13abdad049a8fc57d550aa538240512082",
+    "license": {
+      "name": "BY 3.0 US",
+      "url": "https://creativecommons.org/licenses/by/3.0/us",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=9014280"
+    }
+  },
+  {
+    "word": "believe",
+    "normalized": "believe",
+    "phonetic": "/bi-/",
+    "definitionEn": "To accept as true, particularly without absolute certainty (i.e., as opposed to knowing)",
+    "example": "I believe there are faeries.",
+    "partOfSpeech": "verb",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:verb"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/believe.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/believe-us.mp3",
+    "audioSha256": "bacaedf6c09f8e326c24de46f71de1428eaea4a9284ab3a9658d8129bb83ef66",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=825516"
+    }
+  },
+  {
+    "word": "bell",
+    "normalized": "bell",
+    "phonetic": "/bɛl/",
+    "definitionEn": "A percussive instrument made of metal or other hard material, typically but not always in the shape of an inverted cup with a flared rim, which resonates when struck.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/bell.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/bell-us.mp3",
+    "audioSha256": "f646b757a22656832629baa8120c33a200293f3a9e314e2d220b27a16a5b56a5",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=837191"
+    }
+  },
+  {
+    "word": "below",
+    "normalized": "below",
+    "phonetic": "/bəˈloʊ/",
+    "definitionEn": "In a lower place.",
+    "example": "",
+    "partOfSpeech": "adverb",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:adverb"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/below.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/below-us.mp3",
+    "audioSha256": "f8dca4695878bd3dd5c4610c3666cda1431ce799a0aa228ae39777a510a32a6f",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=709486"
+    }
+  },
+  {
+    "word": "beside",
+    "normalized": "beside",
+    "phonetic": "/biˈsaɪd/",
+    "definitionEn": "Otherwise; else.",
+    "example": "",
+    "partOfSpeech": "adverb",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:adverb"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/beside.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/beside-us.mp3",
+    "audioSha256": "53e9624dec3e3f3eab573f08f9bec456077dd30bff5116a5e47013c5f5594acc",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1239714"
+    }
+  },
+  {
+    "word": "best",
+    "normalized": "best",
+    "phonetic": "/ˈbɛst/",
+    "definitionEn": "The supreme effort one can make, or has made.",
+    "example": "I did my best.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/best.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/best-us.mp3",
+    "audioSha256": "593e3e025be946b127928aab8bc6f5b245dd459e8164a4b88037bc5697f490ff",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1222257"
+    }
+  },
+  {
+    "word": "better",
+    "normalized": "better",
+    "phonetic": "[ˈbɛɾɚ]",
+    "definitionEn": "An entity, usually animate, deemed superior to another; one who has a claim to precedence; a superior.",
+    "example": "He quickly found Ali his better in the ring.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/better.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/better-us.mp3",
+    "audioSha256": "b46c092cce56250c42b9456d63b8347f7a810a4d90705353329c7a8b7afc8e47",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=424714"
+    }
+  },
+  {
+    "word": "between",
+    "normalized": "between",
+    "phonetic": "/bəˈtwin/",
+    "definitionEn": "A kind of needle, shorter than a sharp, with a small rounded eye, used for making fine stitches on heavy fabrics.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/between.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/between-us.mp3",
+    "audioSha256": "1d5a8a333cf4ca43c79bf9077141b549f43e12b2858d6ca3e6d417496b23cb79",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=709494"
+    }
+  },
+  {
+    "word": "bicycle",
+    "normalized": "bicycle",
+    "phonetic": "/ˈbaɪsɪkl̩/",
+    "definitionEn": "A vehicle that has two wheels, one behind the other, a steering handle, and a saddle seat or seats and is usually propelled by the action of a rider’s feet upon pedals.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/bicycle.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/bicycle-us.mp3",
+    "audioSha256": "a47f015d15896e7f638d7de0cc45587747d2be06191c16b2fbec0b1877f48613",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1318310"
+    }
+  },
+  {
+    "word": "big",
+    "normalized": "big",
+    "phonetic": "/bɪɡ/",
+    "definitionEn": "Someone or something that is large in stature",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/big.ogg",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/big-us.ogg",
+    "audioSha256": "19dafe65dc0823f1c0962dabadb1d9474a053e3da556a6c14bbac8e3759d2c72",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=112420547"
+    }
+  },
+  {
+    "word": "bike",
+    "normalized": "bike",
+    "phonetic": "[bɐɪk]",
+    "definitionEn": "A vehicle that has two wheels, one behind the other, a steering handle, and a saddle seat or seats and is usually propelled by the action of a rider’s feet upon pedals.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/bike.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/bike-us.mp3",
+    "audioSha256": "77ce24005f1f2540f3dfab128bd0d192ccc24a94b20fcad8812ac62f38ab33e6",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1762878"
+    }
+  },
+  {
+    "word": "bird",
+    "normalized": "bird",
+    "phonetic": "/bɝd/",
+    "definitionEn": "A member of the class of animals Aves in the phylum Chordata, characterized by being warm-blooded, having feathers and wings usually capable of flight, and laying eggs.",
+    "example": "Ducks and sparrows are birds.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/bird.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/bird-us.mp3",
+    "audioSha256": "e09eea3fb500924efa60797895f680122dccbfeb4ba20c7c937ed7266455e14f",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=395396"
+    }
+  },
+  {
+    "word": "birth",
+    "normalized": "birth",
+    "phonetic": "/bɝθ/",
+    "definitionEn": "The process of childbearing; the beginning of life.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/birth.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/birth-us.mp3",
+    "audioSha256": "9e213daa2f515f2400667b1a1c40594417e0a74094f9b3e9b4abcffd22605b1a",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=837238"
+    }
+  },
+  {
+    "word": "birthday",
+    "normalized": "birthday",
+    "phonetic": "/ˈbɝθˌdeɪ/",
+    "definitionEn": "The anniversary of the day on which someone is born.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/birthday.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/birthday-us.mp3",
+    "audioSha256": "b580fa11b885225da6503219288f543d42214e0d3197fda30687d695e3a8ba1a",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1234363"
+    }
+  },
+  {
+    "word": "biscuit",
+    "normalized": "biscuit",
+    "phonetic": "/ˈbɪskɪt/",
+    "definitionEn": "(rare in the US) A small, flat, baked good which is either hard and crisp or else soft but firm: a cookie.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/biscuit.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/biscuit-us.mp3",
+    "audioSha256": "701fe92d177f028027dfa823192631ffed8f76821ab0fefb559500e6ec44971e",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1341627"
+    }
+  },
+  {
+    "word": "black",
+    "normalized": "black",
+    "phonetic": "/blak/",
+    "definitionEn": "The colour/color perceived in the absence of light, but also when no light is reflected, but rather absorbed.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/black.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/black-uk.mp3",
+    "audioSha256": "73f215d4b4668afc3ce73354148adb24f1d59be2e98fe25a0fef9528add2e6ec",
+    "license": {
+      "name": "",
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=877348"
+    }
+  },
+  {
+    "word": "blank",
+    "normalized": "blank",
+    "phonetic": "/blæŋk/",
+    "definitionEn": "A small French coin, originally of silver, afterwards of copper, worth 5 deniers; also a silver coin of Henry V current in the parts of France then held by the English, worth about 8 pence .",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/blank.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/blank-au.mp3",
+    "audioSha256": "07ffd55effbb9d9515ff74dea26c887bfb926ab75fa6a58fb788dc521022431d",
+    "license": {
+      "name": "BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=79241208"
+    }
+  },
+  {
+    "word": "block",
+    "normalized": "block",
+    "phonetic": "/blɑk/",
+    "definitionEn": "A substantial, often approximately cuboid, piece of any substance.",
+    "example": "a block of ice",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/block.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/block-us.mp3",
+    "audioSha256": "6db2b39622c795b3d82724c975661dee4567d4917666d4de700f468d292db2d6",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1769619"
+    }
+  },
+  {
+    "word": "blow",
+    "normalized": "blow",
+    "phonetic": "/bloʊ/",
+    "definitionEn": "A strong wind.",
+    "example": "We're having a bit of a blow this afternoon.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/blow.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/blow-us.mp3",
+    "audioSha256": "8c59a2e101670e7561263dd0956aad133b8bacb952b57657476f58be862236bc",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=659584"
+    }
+  },
+  {
+    "word": "blue",
+    "normalized": "blue",
+    "phonetic": "/blu/",
+    "definitionEn": "The colour of the clear sky or the deep sea, between green and violet in the visible spectrum, and one of the primary additive colours for transmitted light; the colour obtained by subtracting red and green from white light using magenta and cyan filters; or any colour resembling this.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/blue.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/blue-us.mp3",
+    "audioSha256": "1a455904742babb0e6d0e830d3f9f9524ca0adc1699442afb5f7693c6d90abf9",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=839240"
+    }
+  },
+  {
+    "word": "boat",
+    "normalized": "boat",
+    "phonetic": "/boʊt/",
+    "definitionEn": "A craft used for transportation of goods, fishing, racing, recreational cruising, or military use on or in the water, propelled by oars or outboard motor or inboard motor or by wind.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/boat.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/boat-us.mp3",
+    "audioSha256": "1c7914ecb606c073d39d5fb66cd296065c6fd09036e73df242836a0bc0621016",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=839247"
+    }
+  },
+  {
+    "word": "body",
+    "normalized": "body",
+    "phonetic": "/ˈbɑdi/",
+    "definitionEn": "Physical frame.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/body.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/body-us.mp3",
+    "audioSha256": "e5672e73c3fb918e2def1ab844ab2c81a550f218a1935a9fb5b19551a537818f",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=839252"
+    }
+  },
+  {
+    "word": "bone",
+    "normalized": "bone",
+    "phonetic": "/ˈboʊn/",
+    "definitionEn": "A composite material consisting largely of calcium phosphate and collagen and making up the skeleton of most vertebrates.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/bone.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/bone-us.mp3",
+    "audioSha256": "b7e776501f46848412101e2e658f5b2758ad0bf917bb3548bf5f33fce84d88c5",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=196869"
+    }
+  },
+  {
+    "word": "book",
+    "normalized": "book",
+    "phonetic": "/buːk/",
+    "definitionEn": "A collection of sheets of paper bound together to hinge at one edge, containing printed or written material, pictures, etc.",
+    "example": "He was frustrated because he couldn't find anything about dinosaurs in the book.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/book.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/book-uk.mp3",
+    "audioSha256": "a796474c386aa5ba596f204b456c70fdae13451f7d5fae8a5c6079a7b7902dd1",
+    "license": {
+      "name": "BY 3.0 US",
+      "url": "https://creativecommons.org/licenses/by/3.0/us",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=9014290"
+    }
+  },
+  {
+    "word": "bookstore",
+    "normalized": "bookstore",
+    "phonetic": "/ˈbʊkstɔː/",
+    "definitionEn": "A store where books are bought and sold.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/bookstore.wav",
+    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/LL-Q1860_%28eng%29-Simplificationalizer-bookstore.wav",
+    "audioSha256": "f2ffda4fbdfdf176316e81f88f01bb9ea007681672276aacaf4777a1710b4215",
+    "license": {
+      "name": "CC0",
+      "url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Simplificationalizer-bookstore.wav"
+    }
+  },
+  {
+    "word": "boring",
+    "normalized": "boring",
+    "phonetic": "/ˈbɔːɹɪŋ/",
+    "definitionEn": "To inspire boredom in somebody.",
+    "example": "",
+    "partOfSpeech": "verb",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:verb"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/boring.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/boring-us.mp3",
+    "audioSha256": "f2f2149c2432554e3c3ba0d6808d551ccdb8bb3d2ce1a2d5cbd1c858270ebcc0",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1779941"
+    }
+  },
+  {
+    "word": "borrow",
+    "normalized": "borrow",
+    "phonetic": "/ˈbɑɹoʊ/",
+    "definitionEn": "Deviation of the path of a rolling ball from a straight line; slope; slant.",
+    "example": "This putt has a big left-to right borrow on it.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/borrow.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/borrow-us.mp3",
+    "audioSha256": "49f5e3516342cc9198ffc1e6c25560482d1d47e905952db37734f8a4eec3e98e",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1769852"
+    }
+  },
+  {
+    "word": "both",
+    "normalized": "both",
+    "phonetic": "/boʊθ/",
+    "definitionEn": "Each of the two, or of the two kinds.",
+    "example": "\"Did you want this one or that one?\" — \"Give me both.\"",
+    "partOfSpeech": "pronoun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:pronoun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/both.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/both-us.mp3",
+    "audioSha256": "7c874f4f8214969e23ea2de5cc0f566f4ae772114f51eda8d4adc9ab42bd72f4",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=711077"
+    }
+  },
+  {
+    "word": "bottle",
+    "normalized": "bottle",
+    "phonetic": "/ˈbɒ.təl/",
+    "definitionEn": "A container, typically made of glass or plastic and having a tapered neck, used primarily for holding liquids.",
+    "example": "Beer is often sold in bottles.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/bottle.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/bottle-uk.mp3",
+    "audioSha256": "90c4c0b4638f41aec0d298f2e8028d4a0e6b4b109d6cbbe9ca9405d99d3e5002",
+    "license": {
+      "name": "BY 3.0 US",
+      "url": "https://creativecommons.org/licenses/by/3.0/us",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=9014174"
+    }
+  },
+  {
+    "word": "bottom",
+    "normalized": "bottom",
+    "phonetic": "/ˈbɑtəm/",
+    "definitionEn": "The lowest part of anything.",
+    "example": "Footers appear at the bottoms of pages.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/bottom.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/bottom-us.mp3",
+    "audioSha256": "d3dd22781208da3f6b62a5cde2599e72c9d0dfb26443ec2766b32ac767c9e740",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1250150"
+    }
+  },
+  {
+    "word": "bowl",
+    "normalized": "bowl",
+    "phonetic": "/boʊɫ/",
+    "definitionEn": "A roughly hemispherical container used to hold, mix or present food, such as salad, fruit or soup, or other items.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/bowl.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/bowl-us.mp3",
+    "audioSha256": "caa7e9c1427b1cf00c9abbe37094fd96652e2248a96b821211811f91f466b6d9",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1236019"
+    }
+  },
+  {
+    "word": "box",
+    "normalized": "box",
+    "phonetic": "/bɑks/",
+    "definitionEn": "Senses relating to a three-dimensional object or space.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/box.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/box-us.mp3",
+    "audioSha256": "ec2ded90808ccfe64221b25163bcf74010c0688342c3eac8b6340f9dc1005c70",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=839300"
+    }
+  },
+  {
+    "word": "boy",
+    "normalized": "boy",
+    "phonetic": "/bɔːə/",
+    "definitionEn": "A young male.",
+    "example": "Kate is dating a boy named Jim.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/boy.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/boy-us.mp3",
+    "audioSha256": "9159474991e501d6d8d28bb297c14bf1dda8711874490e7c13b62c12411e7fdb",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=839306"
+    }
+  },
+  {
+    "word": "boyfriend",
+    "normalized": "boyfriend",
+    "phonetic": "/ˈbɔɪfɹənd/",
+    "definitionEn": "A male partner in an unmarried romantic relationship.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/boyfriend.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/boyfriend-us.mp3",
+    "audioSha256": "e2f857fd4a930595e1ce4cffdefb696b2506a938b7c3fac81d3ca81d10f8e7e1",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1234359"
+    }
+  },
+  {
+    "word": "brain",
+    "normalized": "brain",
+    "phonetic": "/bɹeɪn/",
+    "definitionEn": "The control center of the central nervous system of an animal located in the skull which is responsible for perception, cognition, attention, memory, emotion, and action.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/brain.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/brain-us.mp3",
+    "audioSha256": "656fe0fe56cca112912ee2273db133a3feacdfb166710c3859cb5bfe8d4ddfca",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=840300"
+    }
+  },
+  {
+    "word": "bread",
+    "normalized": "bread",
+    "phonetic": "/bɹɛd/",
+    "definitionEn": "A foodstuff made by baking dough made from cereals.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/bread.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/bread-us.mp3",
+    "audioSha256": "237b09a1264edbdafbbc8ad3c01deb3eea68a1501da289a259b316364d90eeda",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=502023"
+    }
+  },
+  {
+    "word": "break",
+    "normalized": "break",
+    "phonetic": "/bɹeɪk/",
+    "definitionEn": "An instance of breaking something into two or more pieces.",
+    "example": "The femur has a clean break and so should heal easily.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/break.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/break-us.mp3",
+    "audioSha256": "b883ce9e48c72a8bc96a9323c888e542f83845f9fd17e726d2595b7526fa0b6e",
+    "license": {
+      "name": "",
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=360847"
+    }
+  },
+  {
+    "word": "breakfast",
+    "normalized": "breakfast",
+    "phonetic": "/ˈbɹɛkfəst/",
+    "definitionEn": "The first meal of the day, usually eaten in the morning.",
+    "example": "You should put more protein in her breakfast so she will grow.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/breakfast.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/breakfast-us.mp3",
+    "audioSha256": "3b40072fd71b4b03a58011b4c80dea49a8a23bf538a76380a82d369d4d930cc5",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1661631"
+    }
+  },
+  {
+    "word": "breathe",
+    "normalized": "breathe",
+    "phonetic": "/bɹið/",
+    "definitionEn": "To draw air into (inhale), and expel air from (exhale), the lungs in order to extract oxygen and excrete waste gases.",
+    "example": "",
+    "partOfSpeech": "verb",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:verb"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/breathe.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/breathe-us.mp3",
+    "audioSha256": "ea319d606f518cb35b21f8fff7246616f6082e8c80d9fb7ecb828b2269367a4f",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=399024"
+    }
+  },
+  {
+    "word": "bridge",
+    "normalized": "bridge",
+    "phonetic": "/bɹɪd͡ʒ/",
+    "definitionEn": "A construction or natural feature that spans a divide.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/bridge.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/bridge-us.mp3",
+    "audioSha256": "5c6e96d911e78f88861b73ef31c9f7a3ab5bacd968f66dd52c7d0a2eb0ab06e6",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=840326"
+    }
+  },
+  {
+    "word": "bright",
+    "normalized": "bright",
+    "phonetic": "/bɹaɪt/",
+    "definitionEn": "An artist's brush used in oil and acrylic painting with a long ferrule and a flat, somewhat tapering bristle head.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/bright.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/bright-us.mp3",
+    "audioSha256": "1a8a5276d449c303538595fca3e441f696027ac61a49071814f39a312817fd8f",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=840342"
+    }
+  },
+  {
+    "word": "bring",
+    "normalized": "bring",
+    "phonetic": "/ˈbɹɪŋ/",
+    "definitionEn": "(ditransitive) To transport toward somebody/somewhere.",
+    "example": "Waiter, please bring me a single malt whiskey.",
+    "partOfSpeech": "verb",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:verb"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/bring.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/bring-us.mp3",
+    "audioSha256": "363aec5d48eb74d5afd79b011297f0d6a1e9c6088bec66db0ef013ab61a244fd",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1224258"
+    }
+  },
+  {
+    "word": "broken",
+    "normalized": "broken",
+    "phonetic": "/ˈbɹəʊkən/",
+    "definitionEn": "To separate into two or more pieces, to fracture or crack, by a process that cannot easily be reversed for reassembly.",
+    "example": "If the vase falls to the floor, it might break.",
+    "partOfSpeech": "verb",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:verb"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/broken.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/broken-us.mp3",
+    "audioSha256": "1b99b4abf317352433f83bf54c7e2e74f8e7db7867645080b8290f2d8e973d81",
+    "license": {
+      "name": "",
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=360843"
+    }
+  },
+  {
+    "word": "brother",
+    "normalized": "brother",
+    "phonetic": "/ˈbɹʌðɚ/",
+    "definitionEn": "Son of the same parents as another person.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/brother.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/brother-us.mp3",
+    "audioSha256": "d9df8a1dfbb1781e18f5da0b33bd4ed431cb5b4062cf23f1f1ef2413b586e21f",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=840343"
+    }
+  },
+  {
+    "word": "brown",
+    "normalized": "brown",
+    "phonetic": "/bɹaʊn/",
+    "definitionEn": "A colour like that of chocolate or coffee.",
+    "example": "The browns and greens in this painting give it a nice woodsy feel.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/brown.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/brown-us.mp3",
+    "audioSha256": "4bc7f47b2cf17b09d8a66f15d98be0866e8c9ff746ce15e55e83aa60e07f1b79",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=840572"
+    }
+  },
+  {
+    "word": "brush",
+    "normalized": "brush",
+    "phonetic": "/bɹʌʃ/",
+    "definitionEn": "An implement consisting of multiple more or less flexible bristles or other filaments attached to a handle, used for any of various purposes including cleaning, painting, and arranging hair.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/brush.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/brush-us.mp3",
+    "audioSha256": "80428ac7676d4050a227518378be1900aa1226e6b76764a72063916e77659cdd",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=180093"
+    }
+  },
+  {
+    "word": "bucket",
+    "normalized": "bucket",
+    "phonetic": "/ˈbʌkɪt/",
+    "definitionEn": "A container made of rigid material, often with a handle, used to carry liquids or small items.",
+    "example": "I need a bucket to carry the water from the well.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/bucket.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/bucket-us.mp3",
+    "audioSha256": "8ca03e7b922bd42665306a2d0ba2122329c692cba5e498d86de7fb8999435ccf",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=840573"
+    }
+  },
+  {
+    "word": "build",
+    "normalized": "build",
+    "phonetic": "/bɪld/",
+    "definitionEn": "The physique of a human body; constitution or structure of a human body.",
+    "example": "Rugby players are of sturdy build.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/build.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/build-us.mp3",
+    "audioSha256": "96539597aa0311640e83552afc24ba54419e6886fef11abb843a19bd260327ab",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1749728"
+    }
+  },
+  {
+    "word": "building",
+    "normalized": "building",
+    "phonetic": "/ˈbɪl.dɪŋ/",
+    "definitionEn": "The act or process by which something is built; construction.",
+    "example": "The building of the bridge will be completed in a couple of weeks.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/building.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/building-us.mp3",
+    "audioSha256": "3da8f3426675a91c1efc50708a8abc008be978e7d5ef00a938145d9c059c8ca2",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=840575"
+    }
+  },
+  {
+    "word": "burger",
+    "normalized": "burger",
+    "phonetic": "/ˈbɜː(ɹ)ɡə(ɹ)/",
+    "definitionEn": "A hamburger.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/burger.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/burger-uk.mp3",
+    "audioSha256": "063b21ff749aa4800e5e1a126615530029957e116ff12a00529909667410ac09",
+    "license": {
+      "name": "BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=88670114"
+    }
+  },
+  {
+    "word": "bus",
+    "normalized": "bus",
+    "phonetic": "/bʌs/",
+    "definitionEn": "A motor vehicle for transporting large numbers of people along roads.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/bus.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/bus-us.mp3",
+    "audioSha256": "daa0db06c1eb6627343f27a264356e917589bdce61408fe29dd0729b93f85d44",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1762882"
+    }
+  },
+  {
+    "word": "business",
+    "normalized": "business",
+    "phonetic": "/ˈbɪd.nəs/",
+    "definitionEn": "A specific commercial enterprise or establishment.",
+    "example": "I was left my father's business.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/business.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/business-us.mp3",
+    "audioSha256": "6a9113e9657773aaf446eaf1678fa83d9df76f36018b75cf61acc44b54a47fc4",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=840582"
+    }
+  },
+  {
+    "word": "busy",
+    "normalized": "busy",
+    "phonetic": "/ˈbɪzi/",
+    "definitionEn": "A police officer.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/busy.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/busy-us.mp3",
+    "audioSha256": "23bb95ccf6fafb06b782dd90eac14eb0a91bfe26f8242a86b9aa400fcf6d6ab1",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=589466"
+    }
+  },
+  {
+    "word": "but",
+    "normalized": "but",
+    "phonetic": "/bʊt/",
+    "definitionEn": "An instance or example of using the word \"but\".",
+    "example": "It has to be done – no ifs or buts.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/but.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/but-us.mp3",
+    "audioSha256": "65c5082bd6db051f3b1a8c2c7f4eea1d0f288f1fa6dd0bd3074ca99e40d365ac",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=192100"
+    }
+  },
+  {
+    "word": "butterfly",
+    "normalized": "butterfly",
+    "phonetic": "[ˈbʌtəflaɪ]",
+    "definitionEn": "A flying insect of the order Lepidoptera, distinguished from moths by their diurnal activity and generally brighter colouring.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/butterfly.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/butterfly-uk.mp3",
+    "audioSha256": "3ea702d0febb862b6bdfedda67b20401d81540514a0748b3d050dc1b57651077",
+    "license": {
+      "name": "BY 3.0 US",
+      "url": "https://creativecommons.org/licenses/by/3.0/us",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=9014178"
+    }
+  },
+  {
+    "word": "button",
+    "normalized": "button",
+    "phonetic": "/ˈbʌtn̩/",
+    "definitionEn": "One who adjusts, especially for the insurance industry's employment title \"loss adjuster\" (or \"claims adjuster\" in the United States).",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/button.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/button-us.mp3",
+    "audioSha256": "27b687082a97121b1c0fdb93361996831f1634b8f99ddf1ce0b6bfa6ab406c7c",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=840583"
+    }
+  },
+  {
+    "word": "buy",
+    "normalized": "buy",
+    "phonetic": "/baɪ/",
+    "definitionEn": "Something which is bought; a purchase.",
+    "example": "At only $30, the second-hand kitchen table was a great buy.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/buy.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/buy-us.mp3",
+    "audioSha256": "6750bd9a747ce9e08cb1dccee3a7b86e90bcc8e14b36b60629328b0b71d9ce57",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=198510"
+    }
+  },
+  {
+    "word": "by",
+    "normalized": "by",
+    "phonetic": "/baɪ/",
+    "definitionEn": "A flying insect, of the clade Anthophila within the hymenopteran superfamily Apoidea, known for its organised societies (though only a minority have them), for collecting pollen and (in some species) producing wax and honey.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/by.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/by-us.mp3",
+    "audioSha256": "ce66e00ead762ac657021df763144555dc8222920c79a9ea93984769dfb815a1",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=192103"
+    }
+  },
+  {
+    "word": "bye",
+    "normalized": "bye",
+    "phonetic": "/baɪ/",
+    "definitionEn": "The position of a person or team in a tournament or competition who draws no opponent in a particular round so advances to the next round unopposed, or is awarded points for a win in a league table; also the phantom opponent of such a person or team.",
+    "example": "Craig's Crew plays the bye next week.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/bye.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/bye-us.mp3",
+    "audioSha256": "1cb9d2ee372045ce136ba3f8eb0c7129c1656abcde6f64325d878856de38d610",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1224253"
+    }
+  },
+  {
+    "word": "cake",
+    "normalized": "cake",
+    "phonetic": "/keɪk/",
+    "definitionEn": "A rich, sweet dessert food, typically made of flour, sugar and eggs and baked in an oven, and often covered in icing.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/cake.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/cake-1-us.mp3",
+    "audioSha256": "e9ab15be121655984ee967df9d29d2c9e382829b2fd4ec812e238aa789166301",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=631330"
+    }
+  },
+  {
+    "word": "call",
+    "normalized": "call",
+    "phonetic": "/kɔl/",
+    "definitionEn": "A telephone conversation.",
+    "example": "I received several calls today.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/call.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/call-us.mp3",
+    "audioSha256": "53eeb85cc9bddd8e22d8bb801a67da2977dfac11e933a6d3bc56a14066d4c602",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1220937"
+    }
+  },
+  {
+    "word": "camera",
+    "normalized": "camera",
+    "phonetic": "/ˈkæməɹə/",
+    "definitionEn": "A device for taking still or moving pictures or photographs.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/camera.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/camera-us.mp3",
+    "audioSha256": "858741df4a9ef5d40af0568f1d1a588b696433fd8bcb5cbdd084521dfdd8a857",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=840584"
+    }
+  },
+  {
+    "word": "camp",
+    "normalized": "camp",
+    "phonetic": "[kʰɛəmp]",
+    "definitionEn": "An outdoor place acting as temporary accommodation in tents or other temporary structures.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/camp.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/camp-us.mp3",
+    "audioSha256": "dff3b7e54084331e020c81a5f7332a922ea47549dd4928099939e9a03661ae5a",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1243833"
+    }
+  },
+  {
+    "word": "can",
+    "normalized": "can",
+    "phonetic": "/ˈkæn/",
+    "definitionEn": "(auxiliary verb, defective) To know how to; to be able to.",
+    "example": "She can speak English, French, and German. I can play football. Can you remember your fifth birthday?",
+    "partOfSpeech": "verb",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:verb"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/can.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/can-1-us-stressed.mp3",
+    "audioSha256": "5efdb60a4863638a6d929d7b0c0bd74f2c639174f6a9dca0aa1a4d51edff474a",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=192104"
+    }
+  },
+  {
+    "word": "candy",
+    "normalized": "candy",
+    "phonetic": "/ˈkændi/",
+    "definitionEn": "Edible, sweet-tasting confectionery containing sugar, or sometimes artificial sweeteners, and often flavored with fruit, chocolate, nuts, herbs and spices, or artificial flavors.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/candy.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/candy-us.mp3",
+    "audioSha256": "fbf093481c087d6db7810a103950dcb981b4441215ce1ae70ca0218e8d37f9e2",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1779954"
+    }
+  },
+  {
+    "word": "cap",
+    "normalized": "cap",
+    "phonetic": "/kæp/",
+    "definitionEn": "A close-fitting hat, either brimless or peaked.",
+    "example": "The children were all wearing caps to protect them from the sun.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/cap.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/cap-us.mp3",
+    "audioSha256": "cb0730813c5f5c392bfe81a7af4479018589af8cfc4dc6629975145507b66dc7",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=424726"
+    }
+  },
+  {
+    "word": "car",
+    "normalized": "car",
+    "phonetic": "/kɑɹ/",
+    "definitionEn": "A wheeled vehicle that moves independently, with at least three wheels, powered mechanically, steered by a driver and mostly for personal transportation.",
+    "example": "She drove her car to the mall.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/car.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/car-us.mp3",
+    "audioSha256": "0e669bfab5737803277f8526914ebd8180ac50b5302ad3a7a6ed04205db72cb5",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=424729"
+    }
+  },
+  {
+    "word": "card",
+    "normalized": "card",
+    "phonetic": "/kɑɹd/",
+    "definitionEn": "A playing card.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/card.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/card-us.mp3",
+    "audioSha256": "7256e4b4410601961befd5ea5afc6a09be33b4e26c83535f83a63ae8f9feaf97",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=631181"
+    }
+  },
+  {
+    "word": "care",
+    "normalized": "care",
+    "phonetic": "/ke(ə)ɹ/",
+    "definitionEn": "Grief, sorrow.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/care.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/care-us.mp3",
+    "audioSha256": "efb0d36ff90e8061ce0dc44c87479647621af65c979dacb56a04056e5ef5b3ef",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=424731"
+    }
+  },
+  {
+    "word": "careful",
+    "normalized": "careful",
+    "phonetic": "/ˈkɛ(ə)ɹfəl/",
+    "definitionEn": "Taking care; attentive to potential danger, error or harm; cautious.",
+    "example": "He was a slow and careful driver.",
+    "partOfSpeech": "adjective",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:adjective"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/careful.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/careful-us.mp3",
+    "audioSha256": "f9dfdbac675417eb8253f67e805e9545a579ad9e1cdab9ec7b61cb035638e83d",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1234252"
+    }
+  },
+  {
+    "word": "carefully",
+    "normalized": "carefully",
+    "phonetic": "/ˈkɛɹfli/",
+    "definitionEn": "Sorrowfully.",
+    "example": "",
+    "partOfSpeech": "adverb",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:adverb"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/carefully.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/carefully-us.mp3",
+    "audioSha256": "00ed8776535cacb1e774dde95f3d51d498572b6d3a49cae45b7f24675a5335f3",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1250070"
+    }
+  },
+  {
+    "word": "carry",
+    "normalized": "carry",
+    "phonetic": "/ˈkæ.ɹi/",
+    "definitionEn": "A manner of transporting or lifting something; the grip or position in which something is carried.",
+    "example": "Adjust your carry from time to time so that you don't tire too quickly.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/carry.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/carry.mp3",
+    "audioSha256": "04c78eb85461f2c010ceeb502a24ca8a444a036a5725cbf0eafd04a2eaa55d6d",
+    "license": {
+      "name": "",
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=247050"
+    }
+  },
+  {
+    "word": "cartoon",
+    "normalized": "cartoon",
+    "phonetic": "/kɑɹˈtuːn/",
+    "definitionEn": "A humorous drawing, often with a caption, or a strip of such drawings.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/cartoon.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/cartoon-us.mp3",
+    "audioSha256": "c3f356190c0b0570f791c117585d9759d0ede05a690ba5a4d4319fd4f01bd1b4",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1779956"
+    }
+  },
+  {
+    "word": "case",
+    "normalized": "case",
+    "phonetic": "/keɪs/",
+    "definitionEn": "An actual event, situation, or fact.",
+    "example": "For a change, in this case, he was telling the truth.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/case.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/case-us.mp3",
+    "audioSha256": "b81b64327aa2b158c5d42acc699aaa3b182a2ff515e18ad79b6ad60293a94c65",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1224257"
+    }
+  },
+  {
+    "word": "cat",
+    "normalized": "cat",
+    "phonetic": "/kæt/",
+    "definitionEn": "An animal of the family Felidae:",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/cat.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/cat-us.mp3",
+    "audioSha256": "5186412dee2026398000bfe3071834f31608da66f073e3d5a27c438aff959468",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=187316"
+    }
+  },
+  {
+    "word": "catch",
+    "normalized": "catch",
+    "phonetic": "/kæt͡ʃ/",
+    "definitionEn": "The act of seizing or capturing.",
+    "example": "The catch of the perpetrator was the product of a year of police work.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/catch.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/catch-us.mp3",
+    "audioSha256": "b1bda645602cf7d829a6708be96c8ee8f1545c47749d90ed0a6848128ace67b1",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=189827"
+    }
+  },
+  {
+    "word": "celebrate",
+    "normalized": "celebrate",
+    "phonetic": "/ˈsɛl.ə.bɹeɪt/",
+    "definitionEn": "To extol or honour in a solemn manner.",
+    "example": "to celebrate the name of the Most High",
+    "partOfSpeech": "verb",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:verb"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/celebrate.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/celebrate-us.mp3",
+    "audioSha256": "7c3567103fe5d76f4ed0ad16464a2317ea2f8be2e501301c20358dd5a33ad897",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1779964"
+    }
+  },
+  {
+    "word": "celebration",
+    "normalized": "celebration",
+    "phonetic": "/ˌsɛlɪˈbɹeiʃən/",
+    "definitionEn": "The formal performance of a solemn rite, such as Christian sacrament.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/celebration.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/celebration-uk.mp3",
+    "audioSha256": "73b5bc88fb3d483b0ae00044a213cb762f0940d2bc3f8f70193e83e4374a3333",
+    "license": {
+      "name": "BY 3.0 US",
+      "url": "https://creativecommons.org/licenses/by/3.0/us",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=9014317"
+    }
+  },
+  {
+    "word": "chair",
+    "normalized": "chair",
+    "phonetic": "/t͡ʃɛəɹ/",
+    "definitionEn": "An item of furniture used to sit on or in, comprising a seat, legs, back, and sometimes arm rests, for use by one person. Compare stool, couch, sofa, settee, loveseat and bench.",
+    "example": "All I need to weather a snowstorm is hot coffee, a warm fire, a good book and a comfortable chair.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/chair.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/chair-us.mp3",
+    "audioSha256": "8e2c3607ac13c59a6d3873d994caa190c5462f202c087bf13b115c83769a8265",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1239752"
+    }
+  },
+  {
+    "word": "change",
+    "normalized": "change",
+    "phonetic": "/tʃeɪndʒ/",
+    "definitionEn": "The process of becoming different.",
+    "example": "The product is undergoing a change in order to improve it.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/change.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/change-us.mp3",
+    "audioSha256": "723987202deaef2eb9f2e64b3d0e713211aa51fb61e1aacc05713ecbcb79bc92",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=840607"
+    }
+  },
+  {
+    "word": "character",
+    "normalized": "character",
+    "phonetic": "/ˈkæɹəktɚ/",
+    "definitionEn": "A being involved in the action of a story.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/character.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/character-us.mp3",
+    "audioSha256": "9d4b2425c842cf5aeaa14bf358c862b7cdfd3a06ad9f519f86c06f43d425cc7c",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1227532"
+    }
+  },
+  {
+    "word": "check",
+    "normalized": "check",
+    "phonetic": "/t͡ʃɛk/",
+    "definitionEn": "A situation in which the king is directly threatened by an opposing piece.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/check.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/check-us.mp3",
+    "audioSha256": "70dd511baa8833555a671efefadf51ddda7da6d1c89fc1206fad55ac44f19447",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1224273"
+    }
+  },
+  {
+    "word": "cheese",
+    "normalized": "cheese",
+    "phonetic": "/t͡ʃiz/",
+    "definitionEn": "A dairy product made from curdled or cultured milk.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/cheese.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/cheese-us.mp3",
+    "audioSha256": "60097e35226bb20305213bb4f5086d1e2cdbd2d770b105252c9dd5249ddab9ed",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=501997"
+    }
+  },
+  {
+    "word": "chicken",
+    "normalized": "chicken",
+    "phonetic": "/ˈt͡ʃɪkɪn/",
+    "definitionEn": "A domestic fowl, Gallus gallus, especially when young.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/chicken.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/chicken-us.mp3",
+    "audioSha256": "309f1569d756da44235175695cd1dcee294c54097c7417dc3fc768c7c4d39dc3",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=584296"
+    }
+  },
+  {
+    "word": "child",
+    "normalized": "child",
+    "phonetic": "/t͡ʃaɪld/",
+    "definitionEn": "A person who has not yet reached adulthood, whether natural (puberty), cultural (initiation), or legal (majority)",
+    "example": "Go easy on him: he is but a child.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/child.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/child-us.mp3",
+    "audioSha256": "5ae030afec3208219b294df1c0d63b7482fee582f6e3b64e8daf5f66b00db22f",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1227475"
+    }
+  },
+  {
+    "word": "chocolate",
+    "normalized": "chocolate",
+    "phonetic": "/ˈt͡ʃɔk(ə)lɪt/",
+    "definitionEn": "A food made from ground roasted cocoa beans.",
+    "example": "Chocolate is a very popular treat.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/chocolate.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/chocolate-us.mp3",
+    "audioSha256": "28002dbb1d365e8b3967523d84f514a0d468c96689bc20a3290520cac7f2812c",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=676259"
+    }
+  },
+  {
+    "word": "choose",
+    "normalized": "choose",
+    "phonetic": "/t͡ʃuːz/",
+    "definitionEn": "To pick; to make the choice of; to select.",
+    "example": "I chose a nice ripe apple from the fruit bowl.",
+    "partOfSpeech": "verb",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:verb"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/choose.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/choose-1-us.mp3",
+    "audioSha256": "a0a820958324bd6b29164a782960f38a2e082a76568fcb7f8e5d2ec5a27ade81",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1250159"
+    }
+  },
+  {
+    "word": "church",
+    "normalized": "church",
+    "phonetic": "/t͡ʃɝt͡ʃ/",
+    "definitionEn": "A Christian house of worship; a building where Christian religious services take place.",
+    "example": "There is a lovely little church in the valley.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/church.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/church-us.mp3",
+    "audioSha256": "f2be59bba8f40f06f59445e9242a9090541ac7b7769f879614b65e658f0b1aff",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=840616"
+    }
+  },
+  {
+    "word": "cinema",
+    "normalized": "cinema",
+    "phonetic": "/ˈsɪn.ə.mə/",
+    "definitionEn": "A movie theatre, a movie house",
+    "example": "The cinema is right across the street from the restaurant.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/cinema.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/cinema-us.mp3",
+    "audioSha256": "4932c5c4d04dde45348c862842262e59334ae7f3453aa475ef64aea7d00179d5",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1779979"
+    }
+  },
+  {
+    "word": "circle",
+    "normalized": "circle",
+    "phonetic": "[ˈsɝ.kəɫ]",
+    "definitionEn": "A two-dimensional geometric figure, a line, consisting of the set of all those points in a plane that are equally distant from a given point (center).",
+    "example": "The set of all points (x, y) such that (x − 1)2 + y2 = r2 is a circle of radius r around the point (1, 0).",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/circle.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/circle-us.mp3",
+    "audioSha256": "1e8686c11c3c8d22d04234985dc2098bdfd2a9b25764e6ff5da104440d7bf7fa",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=840620"
+    }
+  },
+  {
+    "word": "city",
+    "normalized": "city",
+    "phonetic": "/sɪtɪ/",
+    "definitionEn": "A large settlement, bigger than a town; sometimes with a specific legal definition, depending on the place.",
+    "example": "São Paulo is the largest city in South America.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/city.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/city-uk.mp3",
+    "audioSha256": "2c49922408c8e7aafc488727cfb2e0a6bd999906e35c6b4b8fc7308fcfd8344b",
+    "license": {
+      "name": "BY 3.0 US",
+      "url": "https://creativecommons.org/licenses/by/3.0/us",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=9014329"
+    }
+  },
+  {
+    "word": "class",
+    "normalized": "class",
+    "phonetic": "/kleəs/",
+    "definitionEn": "A group, collection, category or set sharing characteristics or attributes.",
+    "example": "Often used to imply membership of a large class.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/class.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/class-us.mp3",
+    "audioSha256": "92aa345fbec53e8fc68e0d814d3ed845fabb7ed9b7ce0f33530b0ac546b4a0c6",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1230668"
+    }
+  },
+  {
+    "word": "classmate",
+    "normalized": "classmate",
+    "phonetic": "/ˈklɑːs.meɪt/",
+    "definitionEn": "A student who is in the same class at school.",
+    "example": "Danny and I have been classmates for five years, but I've never spoken to him outside of lessons.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/classmate.wav",
+    "audioUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/LL-Q1860_%28eng%29-Vealhurl-classmate.wav",
+    "audioSha256": "191372ff942850ce6c797080e48e720958d7cea35b44832e4ab03dc36e2ace0e",
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Vealhurl-classmate.wav"
+    }
+  },
+  {
+    "word": "classroom",
+    "normalized": "classroom",
+    "phonetic": "/ˈklɑːsɹʊm/",
+    "definitionEn": "A room, often in a school, where classes take place",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/classroom.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/classroom-uk.mp3",
+    "audioSha256": "96dc918a6a2b40f43bd8312ac9b38379320c9b17d431de4ccf3d6bfdd274fddc",
+    "license": {
+      "name": "BY 3.0 US",
+      "url": "https://creativecommons.org/licenses/by/3.0/us",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=9014332"
+    }
+  },
+  {
+    "word": "clean",
+    "normalized": "clean",
+    "phonetic": "/klin/",
+    "definitionEn": "Removal of dirt.",
+    "example": "This place needs a clean.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/clean.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/clean-us.mp3",
+    "audioSha256": "71e489c38049be849ada1b2a4692595a664c014bae58552695fff2f2e4be3015",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=840622"
+    }
+  },
+  {
+    "word": "clever",
+    "normalized": "clever",
+    "phonetic": "/ˈklɛvɚ/",
+    "definitionEn": "Nimble with hands or body; skillful; adept.",
+    "example": "",
+    "partOfSpeech": "adjective",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:adjective"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/clever.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/clever-us.mp3",
+    "audioSha256": "c66a9e4f09903a6485bdc5ccaba9351a769d9bdb559b6f1c2d51cfc333504289",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1749749"
+    }
+  },
+  {
+    "word": "climb",
+    "normalized": "climb",
+    "phonetic": "/klaɪm/",
+    "definitionEn": "An act of climbing.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/climb.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/climb-us.mp3",
+    "audioSha256": "906def8b459d47d60050b1055e5d030dc23d4a18f65087fdb8d6d5041eee76c3",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1779984"
+    }
+  },
+  {
+    "word": "clock",
+    "normalized": "clock",
+    "phonetic": "/klɑk/",
+    "definitionEn": "An instrument used to measure or keep track of time; a non-portable timepiece.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/clock.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/clock-us.mp3",
+    "audioSha256": "a78e32d01ecbc0249a60bb50f7d2eac6ec9527d95b6a26290773402c500a9c73",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=840632"
+    }
+  },
+  {
+    "word": "close",
+    "normalized": "close",
+    "phonetic": "/kloʊz/",
+    "definitionEn": "An end or conclusion.",
+    "example": "We owe them our thanks for bringing the project to a successful close.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/close.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/close-1-us.mp3",
+    "audioSha256": "90b2a198681f6e57d2a3d6397c0ad3482cd68104038f2d583cf6cfb2c2ce6cf7",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=180112"
+    }
+  },
+  {
+    "word": "closed",
+    "normalized": "closed",
+    "phonetic": "/kloʊzd/",
+    "definitionEn": "(physical) To remove a gap.",
+    "example": "",
+    "partOfSpeech": "verb",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:verb"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/closed.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/closed-us.mp3",
+    "audioSha256": "53fa71bc30cff6a34e55a2bf3df690976df9023bd9aee969beb92a271ffaed63",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1241395"
+    }
+  },
+  {
+    "word": "cloth",
+    "normalized": "cloth",
+    "phonetic": "/klɔθ/",
+    "definitionEn": "A woven fabric such as used in dressing, decorating, cleaning or other practical use.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/cloth.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/cloth-us.mp3",
+    "audioSha256": "6a6c29aeedaf2d0ad29c5498dcde7e49ef0b9775843abfee4b4d3ac7e5e8d680",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=840634"
+    }
+  },
+  {
+    "word": "clothes",
+    "normalized": "clothes",
+    "phonetic": "/kloʊ(ð)z/",
+    "definitionEn": "A woven fabric such as used in dressing, decorating, cleaning or other practical use.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/clothes.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/clothes-1-us.mp3",
+    "audioSha256": "b6ef4124d28985cf297f31476e2d26bbc06fbd847f9054b7a192fd6f61ce66b1",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1235935"
+    }
+  },
+  {
+    "word": "cloud",
+    "normalized": "cloud",
+    "phonetic": "/klaʊd/",
+    "definitionEn": "A rock; boulder; a hill.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/cloud.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/cloud-us.mp3",
+    "audioSha256": "2d12eb97c3771d5b90e07ac3188e95a32756d57a96c58fe97dc36dc16790dfcf",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=840635"
+    }
+  },
+  {
+    "word": "cloudy",
+    "normalized": "cloudy",
+    "phonetic": "/ˈkɫaʊdi/",
+    "definitionEn": "Covered with or characterised by clouds; overcast.",
+    "example": "",
+    "partOfSpeech": "adjective",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:adjective"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/cloudy.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/cloudy-us.mp3",
+    "audioSha256": "0efd8855b7c41970c624aee4ad5d63fcb15c9109e1b2ed75441746967dd352e9",
+    "license": {
+      "name": "BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=50699382"
+    }
+  },
+  {
+    "word": "club",
+    "normalized": "club",
+    "phonetic": "/klʌb/",
+    "definitionEn": "An association of members joining together for some common purpose, especially sports or recreation.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/club.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/club-us.mp3",
+    "audioSha256": "91e4dbff76e37b3238a5a127a0ee15549d8b0c25daeda32707eef2dec8dfcfa6",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1231934"
+    }
+  },
+  {
+    "word": "coach",
+    "normalized": "coach",
+    "phonetic": "/koʊtʃ/",
+    "definitionEn": "A wheeled vehicle, generally drawn by horse power.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/coach.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/coach-us.mp3",
+    "audioSha256": "a13168197c1b11f920bf98fd253594843097ef88f9c7e6d4d37a122882de1297",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=2100348"
+    }
+  },
+  {
+    "word": "coat",
+    "normalized": "coat",
+    "phonetic": "/koʊt/",
+    "definitionEn": "An outer garment covering the upper torso and arms.Wp",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/coat.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/coat-us.mp3",
+    "audioSha256": "9126fbb16f8fb15b26f5f1ed98bfe584751369cb2c246d4adb068b96ebcc96e8",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=840640"
+    }
+  },
+  {
+    "word": "code",
+    "normalized": "code",
+    "phonetic": "/kəʊd/",
+    "definitionEn": "A short symbol, often with little relation to the item it represents.",
+    "example": "This flavour of soup has been assigned the code WRT-9.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/code.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/code-uk.mp3",
+    "audioSha256": "35d302192b1eac80889085fa6d295fb1446b803363045d3ff6004d9006a980f3",
+    "license": {
+      "name": "BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=89012322"
+    }
+  },
+  {
+    "word": "coffee",
+    "normalized": "coffee",
+    "phonetic": "/ˈkɔ.fi/",
+    "definitionEn": "A beverage made by infusing the beans of the coffee plant in hot water.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/coffee.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/coffee-us.mp3",
+    "audioSha256": "72650549e5916588e2d407b1a076e0def24cad3a20240866d44f27485fa3c18b",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=502025"
+    }
+  },
+  {
+    "word": "coke",
+    "normalized": "coke",
+    "phonetic": "/kəʊk/",
+    "definitionEn": "Solid residue from roasting coal in a coke oven; used principally as a fuel and in the production of steel and formerly as a domestic fuel.",
+    "example": "The plant should produce approximately 550,000 tons of screened blast furnace coke per year.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/coke.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/coke-au.mp3",
+    "audioSha256": "7929747b588e5c796a72f3b4fcbef4be9e1fa0fcd968bb42744dc948f59b8fda",
+    "license": {
+      "name": "BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=79218619"
+    }
+  },
+  {
+    "word": "cold",
+    "normalized": "cold",
+    "phonetic": "/koʊld/",
+    "definitionEn": "(of a thing) Having a low temperature.",
+    "example": "A cold wind whistled through the trees.",
+    "partOfSpeech": "adjective",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:adjective"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/cold.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/cold-us.mp3",
+    "audioSha256": "2124ef57fe6580710290c8c67d30b963fde42164c0e47dac75e3072615bda7a8",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=782558"
+    }
+  },
+  {
+    "word": "collect",
+    "normalized": "collect",
+    "phonetic": "/kəˈlɛkt/",
+    "definitionEn": "To gather together; amass.",
+    "example": "Suzanne collected all the papers she had laid out.",
+    "partOfSpeech": "verb",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:verb"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/collect.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/collect-1-us.mp3",
+    "audioSha256": "f6d848d0027a20700098e65cce3084bf71740e7f96cb7741f5ef4f2bbc3607ca",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=2453904"
+    }
+  },
+  {
+    "word": "collection",
+    "normalized": "collection",
+    "phonetic": "/kəˈlɛkʃən/",
+    "definitionEn": "A set of items or amount of material procured or gathered together.",
+    "example": "The asteroid belt consists of a collection of dust, rubble, and minor planets.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/collection.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/collection-us.mp3",
+    "audioSha256": "d336b03901c7b5d9239cfdadaf7c737e27c62b846bfa5a378502e6d62afee4ba",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1648217"
+    }
+  },
+  {
+    "word": "college",
+    "normalized": "college",
+    "phonetic": "/ˈkɑlɪd͡ʒ/",
+    "definitionEn": "A corporate group; a group of colleagues.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/college.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/college-us.mp3",
+    "audioSha256": "aeb727528f5236fa834f39b2424d5ba90f1cef3a9ed1343cc9eef00e2b224a90",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1234357"
+    }
+  },
+  {
+    "word": "come",
+    "normalized": "come",
+    "phonetic": "/kʌm/",
+    "definitionEn": "Coming, arrival; approach.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/come.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/come-1-us.mp3",
+    "audioSha256": "d81eed3da1580471ccdf8fa00ed3ef980abcfd20afa4b21f9c40701472c81451",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=711082"
+    }
+  },
+  {
+    "word": "computer",
+    "normalized": "computer",
+    "phonetic": "/kəmˈpjutɚ/",
+    "definitionEn": "A person employed to perform computations; one who computes.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/computer.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/computer-us.mp3",
+    "audioSha256": "f5298d59cc92594c0a424c7a6e5b55c7cc7aa13eea48844d886c773d9236ab6e",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1676720"
+    }
+  },
+  {
+    "word": "concert",
+    "normalized": "concert",
+    "phonetic": "/ˈkɒnsət/",
+    "definitionEn": "Agreement in a design or plan; union formed by mutual communication of opinions and views; accordance in a scheme; harmony; simultaneous action.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/concert.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/concert-uk.mp3",
+    "audioSha256": "75cfae31659a76f304cd0107c3019266751cc4e96272ed609f782dd4fae70f9a",
+    "license": {
+      "name": "BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=83326155"
+    }
+  },
+  {
+    "word": "contest",
+    "normalized": "contest",
+    "phonetic": "/ˈkɑn.tɛst/",
+    "definitionEn": "Controversy; debate.",
+    "example": "no contest",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/contest.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/contest-us.mp3",
+    "audioSha256": "8117496d63cbbb06bf3d57ba48153bbb786edbc33290753112405feb7fdc69b7",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1780000"
+    }
+  },
+  {
+    "word": "conversation",
+    "normalized": "conversation",
+    "phonetic": "/ˌkɑn.vəɹˈseɪ.ʃən/",
+    "definitionEn": "Expression and exchange of individual ideas through talking with other people; also, a set instance or occasion of such talking.",
+    "example": "I had an interesting conversation with Nicolas yesterday about how much he's getting paid.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/conversation.ogg",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/conversation-us.ogg",
+    "audioSha256": "257a3f18d7a4baaae339d0b91127626db881470fe733d8db590e399b520abfc8",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=112398382"
+    }
+  },
+  {
+    "word": "cook",
+    "normalized": "cook",
+    "phonetic": "/kuːk/",
+    "definitionEn": "A person who prepares food.",
+    "example": "I'm a terrible cook, so I eat a lot of frozen dinners.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/cook.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/cook-us.mp3",
+    "audioSha256": "f8f5357a013e1e14e4fc53311eeadde306c6237f26a37c7b8c1f51fdc69a8997",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=840663"
+    }
+  },
+  {
+    "word": "cookie",
+    "normalized": "cookie",
+    "phonetic": "/ˈkuːki/",
+    "definitionEn": "A small, flat, baked good which is either crisp or soft but firm.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/cookie.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/cookie-au.mp3",
+    "audioSha256": "6c2baa9b3fa64f1d2c80a4304cc1ef8e1d6d28c2fe2556e4021af3bc0cc597cc",
+    "license": {
+      "name": "BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=79241271"
+    }
+  },
+  {
+    "word": "cool",
+    "normalized": "cool",
+    "phonetic": "/kuːl/",
+    "definitionEn": "A moderate or refreshing state of cold; moderate temperature of the air between hot and cold; coolness.",
+    "example": "in the cool of the morning",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/cool.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/cool-uk.mp3",
+    "audioSha256": "5f16bb0d6acf54cb835d461b8cd31a998578e76429736e83d89e849c26cf0d26",
+    "license": {
+      "name": "BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=83326157"
+    }
+  },
+  {
+    "word": "cop",
+    "normalized": "cop",
+    "phonetic": "/kɒp/",
+    "definitionEn": "A spider.",
+    "example": "",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/cop.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/cop-au.mp3",
+    "audioSha256": "27d027fac72e98db8c27bc3fd799f68aed899016e4285703feb5ce0ce6ec067f",
+    "license": {
+      "name": "BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=79218620"
+    }
+  },
+  {
+    "word": "copy",
+    "normalized": "copy",
+    "phonetic": "/ˈkɑpi/",
+    "definitionEn": "The result of copying; an identical duplicate of an original.",
+    "example": "Please bring me the copies of those reports.",
+    "partOfSpeech": "noun",
+    "tags": [
+      "cefr-j",
+      "a1",
+      "starter",
+      "cefr:a1",
+      "pos:noun"
+    ],
+    "audioFile": "resource-packs/cefr-j-a1-starter-2026-06-18/audio/copy.mp3",
+    "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/copy-us.mp3",
+    "audioSha256": "1cc0a5c47cc245b60438c69529023ad9ea992a59479582c6319f46eef290ff05",
+    "license": {
+      "name": "BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=840667"
+    }
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "name": "TOEFL Core Vocabulary",
+  "version": "common-toefl-core-2026-06-18",
+  "createdAt": "2026-06-18T05:48:19.674Z",
+  "sourceId": "sholvoir-toefl-wordlist",
+  "wordCount": 1000,
+  "audioCount": 0,
+  "sources": [
+    {
+      "name": "sholvoir/vocabulary TOEFL_3",
+      "url": "https://github.com/sholvoir/vocabulary",
+      "license": "MIT; original data sources documented in sholvoir/vocabulary README"
+    }
+  ],
+  "licenses": [
+    "sholvoir/vocabulary TOEFL_3: MIT; original data sources documented in sholvoir/vocabulary README"
+  ],
+  "skipped": {
+    "unsupported word shape": 1
+  },
+  "files": {
+    "dictionaryCsv": "dictionary.csv",
+    "audioIndex": "audio-index.json",
+    "audioDirectory": "audio/"
+  }
+}
